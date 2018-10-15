@@ -1,4 +1,3 @@
-library("tidyverse")
 
 raw = MotorcycleData
 raw_cols = select(raw, X1, Condition, Condition_Desc, Warranty, Bid_Count, Price, Location, Model_Year, Mileage, Exterior_Color, Make, Model, Type, OBO, Feedback_Perc, N_Reviews, Seller_Status, Vehicle_Tile, Auction, Buy_Now)
@@ -78,3 +77,4 @@ test_and_validate = data[-in.train, ]
 in.validate = sample(nrow(test_and_validate), size = validate_size)
 validate = test_and_validate[in.validate, ]
 test = test_and_validate[-in.validate, ]
+```
