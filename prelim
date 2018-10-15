@@ -1,0 +1,80 @@
+library("tidyverse")
+
+raw = MotorcycleData
+raw_cols = select(raw, X1, Condition, Condition_Desc, Warranty, Bid_Count, Price, Location, Model_Year, Mileage, Exterior_Color, Make, Model, Type, OBO, Feedback_Perc, N_Reviews, Seller_Status, Vehicle_Tile, Auction, Buy_Now)
+
+
+completeFun <- function(data, desiredCols) {
+  completeVec <- complete.cases(data[, desiredCols])
+  return(data[completeVec, ])
+}
+
+na_clean_cols = c("X1", "Condition", "Price", "Location", "Model_Year", "Mileage", "Exterior_Color", "Make", "Model", "Type", "OBO", "Feedback_Perc", "N_Reviews", "Seller_Status", "Vehicle_Tile", "Auction", "Buy_Now")
+
+data = completeFun(raw_cols, na_clean_cols)
+data = mutate(data, num_pos_words = 0, sentiment = 0, uses_excl = FALSE, all_caps = 0)
+data
+
+
+pos_words = c("clean",
+"perfect",
+"good",
+"rare",
+"awesome",
+"well",
+"excellent",
+"gently",
+"showroom",
+"profesionally",
+"customized",
+"greatsharp",
+"free",
+"mint",
+"new",
+"excelent",
+"impeccable",
+"flawless",
+"spotless",
+"beautiful",
+"nice",
+"super",
+"show",
+"low",
+"fantastic",
+"unmolested",
+"pristine")
+
+
+```
+
+```{r}
+
+for(i in 1:nrow(data)) {
+  if(!is.na(data$Condition_Desc[[i]]) & grepl("!",data$Condition_Desc[[i]])) {
+    data$uses_excl[[i]] = TRUE
+  }
+  if(!is.na(data$Condition_Desc[[i]]) & grepl("^[A-Z ]+[!.,/]*$",data$Condition_Desc[[i]])) {
+    data$all_caps[[i]] = TRUE
+  }
+  for(j in 1:length(pos_words)) {
+    if(!is.na(data$Condition_Desc[[i]]) & grepl(pos_words[[j]],data$Condition_Desc[[i]], ignore.case = TRUE)) {
+      data$sentiment[[i]] = 1
+      data$num_pos_words[[i]] = data$num_pos_words[[i]] + 1
+    }
+  }
+}
+data
+
+```
+
+```{r}
+train_size = 3750
+validate_size = 1000
+
+set.seed(1)
+in.train = sample(nrow(data), size = train_size)
+train = data[in.train, ]
+test_and_validate = data[-in.train, ]
+in.validate = sample(nrow(test_and_validate), size = validate_size)
+validate = test_and_validate[in.validate, ]
+test = test_and_validate[-in.validate, ]
