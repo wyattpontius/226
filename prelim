@@ -1,6 +1,9 @@
+```{r}
+#data = read.table("MotorcycleData.csv", header = TRUE)
+library("tidyverse")
 
 raw = MotorcycleData
-raw_cols = select(raw, X1, Condition, Condition_Desc, Warranty, Bid_Count, Price, Location, Model_Year, Mileage, Exterior_Color, Make, Model, Type, OBO, Feedback_Perc, N_Reviews, Seller_Status, Vehicle_Tile, Auction, Buy_Now)
+raw_cols = select(raw, Condition, Condition_Desc, Warranty, Bid_Count, Price, Location, Model_Year, Mileage, Exterior_Color, Make, Model, Type, OBO, Feedback_Perc, N_Reviews, Seller_Status, Vehicle_Tile, Auction, Buy_Now)
 
 
 completeFun <- function(data, desiredCols) {
@@ -8,12 +11,10 @@ completeFun <- function(data, desiredCols) {
   return(data[completeVec, ])
 }
 
-na_clean_cols = c("X1", "Condition", "Price", "Location", "Model_Year", "Mileage", "Exterior_Color", "Make", "Model", "Type", "OBO", "Feedback_Perc", "N_Reviews", "Seller_Status", "Vehicle_Tile", "Auction", "Buy_Now")
+na_clean_cols = c("Condition", "Price", "Location", "Model_Year", "Mileage", "Exterior_Color", "Make", "Model", "Type", "OBO", "Feedback_Perc", "N_Reviews", "Seller_Status", "Vehicle_Tile", "Auction", "Buy_Now")
 
 data = completeFun(raw_cols, na_clean_cols)
-data = mutate(data, num_pos_words = 0, sentiment = 0, uses_excl = FALSE, all_caps = 0)
-data
-
+data = mutate(data, num_pos_words = 0, sentiment = 0, uses_excl = FALSE, all_caps = 0, has_warranty = FALSE)
 
 pos_words = c("clean",
 "perfect",
@@ -43,7 +44,26 @@ pos_words = c("clean",
 "unmolested",
 "pristine")
 
+yes_warranty = c("Vehicle has an existing warranty",
+"WARRANTY AVAILABLE",
+"TILL 2019",
+"Extended Warranty",
+"Avab",
+"1 Year",
+"12 Month Limited",
+"7 Months Remaining",
+"2 Year Mechanical",
+"2 YEAR FACTORY WARRANTY",
+"Yes, 30-day builder warranty",
+"Triumph&#039;s 2 year unlimited mileage warranty",
+"2 Years",
+"18 months original warranty",
+"24 months",
+"24 MONTH",
+"YES")
 
+data$Price = as.numeric(gsub('[$,]', '', data$Price))
+data
 ```
 
 ```{r}
@@ -61,20 +81,62 @@ for(i in 1:nrow(data)) {
       data$num_pos_words[[i]] = data$num_pos_words[[i]] + 1
     }
   }
+  if(grepl("blue", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "blue"
+  } else if(grepl("red", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "red"
+  } else if(grepl("grey", data$Exterior_Color[[i]], ignore.case =TRUE) | grepl("gray", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "grey"
+  } else if(grepl("white", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "white"
+  } else if(grepl("green", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "green"
+  } else if(grepl("black", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "black"
+  } else if(grepl("orange", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "orange"
+  } else if(grepl("pink", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "pink"
+  } else if(grepl("yellow", data$Exterior_Color[[i]], ignore.case =TRUE)) {
+    data$Exterior_Color[[i]] = "yellow"
+  } else {
+    data$Exterior_Color[[i]] = "other"
+  }
+  #standardize seller_status
+  if(grepl("Private Seller", data$Seller_Status[[i]], ignore.case = TRUE)) {
+    data$Seller_Status[[i]] = "Private Seller"
+  } else if(grepl("Owner", data$Seller_Status[[i]], ignore.case = TRUE) | 
+            grepl("onwer", data$Seller_Status[[i]], ignore.case = TRUE)) {
+    data$Seller_Status[[i]] = "Owner"
+  } else if(grepl("Private Dealer", data$Seller_Status[[i]], ignore.case = TRUE)) {
+    data$Seller_Status[[i]] = "Private Dealer"
+  } else if(grepl("manufacturer", data$Seller_Status[[i]], ignore.case = TRUE)) {
+    data$Seller_Status[[i]] = "manufacturer"
+  } else {
+    data$Seller_Status[[i]] = "other"
+  }
+  #clean warranty
+  if(data$Warranty[[i]] %in% yes_warranty) {
+    data$has_warranty[[i]] = TRUE
+  }
 }
+
 data
-
 ```
-
 ```{r}
-train_size = 3750
-validate_size = 1000
-
-set.seed(1)
-in.train = sample(nrow(data), size = train_size)
-train = data[in.train, ]
-test_and_validate = data[-in.train, ]
-in.validate = sample(nrow(test_and_validate), size = validate_size)
-validate = test_and_validate[in.validate, ]
-test = test_and_validate[-in.validate, ]
+#get rid of unwanted columns
+warranty_col = grep("^Warranty$", colnames(data))
+data = data[,-warranty_col]
+#desc_col = grep("^Condition_Desc$", colnames(data))
+#data = data[,-desc_col]
+location_col = grep("^Location$", colnames(data))
+data = data[,-location_col]
+OBO_col = grep("^OBO$", colnames(data))
+data = data[,-OBO_col]
+OBO_col
+tile_col = grep("^Vehicle_Tile$", colnames(data))
+data = data[,-tile_col]
+bid_col = grep("^Bid_Count$", colnames(data))
+data = data[,-bid_col]
+data
 ```
