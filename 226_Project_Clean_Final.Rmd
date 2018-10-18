@@ -1,0 +1,102 @@
+---
+title: "226_Project_Clean"
+output: word_document
+---
+
+```{r}
+library(ModelMetrics)
+library(Metrics)
+library(tidyverse)
+library(dplyr)
+library(robustbase)
+library(cvTools)
+#finish cleaning
+setwd("~/Documents/226Project")
+data = read.csv(file = "data_cleaned.csv")
+make_col = grep("^Model$", colnames(data))
+data = data[,-make_col]
+desc_col = grep("^Condition_Desc$", colnames(data))
+data = data[,-desc_col]
+sent_col = grep("^sentiment$", colnames(data))
+data = data[,-sent_col]
+data
+```
+
+```{r}
+
+#condense Make
+for(i in 1:nrow(data)) {
+  if(data$Seller_Status[[i]] == "manufacturer") {
+    data$Seller_Status[[i]] = "other"
+  }
+  if(grepl("Harley-Davidson", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Harley-Davidson"
+  } else if(grepl("American", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "American"
+  } else if(grepl("BMW", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "BMW"
+  } else if(grepl("Can-Am", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Can-Am"
+  } else if(grepl("Ducati", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Ducati"
+  } else if(grepl("Honda", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Honda"
+  } else if(grepl("Indian", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Indian"
+  } else if(grepl("Kawasaki", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Kawasaki"
+  } else if(grepl("KTM", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "KTM"
+  } else if(grepl("Suzuki", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Suzuki"
+  } else if(grepl("Triumph", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Triumph"
+  } else if(grepl("Yamaha", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Yamaha"
+  } else if(grepl("Ural", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Ural"
+  } else if(grepl("Victory", data$Make[[i]], ignore.case = TRUE)) {
+    data$Make[[i]] = "Victory"
+  } else {
+    data$Make[[i]] = "Other"
+  }
+  if(grepl("Café Racer", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Café Racer"
+  } else if(grepl("Chopper", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Chopper"
+  } else if(grepl("Cruiser", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Cruiser"
+  } else if(grepl("Custom", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Custom"
+  } else if(grepl("Dual-Purpose", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Dual-Purpose"
+  } else if(grepl("Gasoline", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Gasoline"
+  } else if(grepl("Naked", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Naked"
+  } else if(grepl("Off-Road", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Off-Road"
+  } else if(grepl("Scooter", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Scooter"
+  } else if(grepl("Sport Bike", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Sport Bike"
+  } else if(grepl("Touring", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Touring"
+  } else if(grepl("Standard", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Standard"
+  } else if(grepl("Trike", data$Type[[i]], ignore.case = TRUE)) {
+    data$Type[[i]] = "Trike"
+  } else {
+    data$Type[[i]] = "Other"
+  }
+}
+
+data$Feedback_Perc = as.numeric(data$Feedback_Perc)
+
+write.csv(data, file = "final_data_cleaned.csv")
+data = read.csv(file = "final_data_cleaned.csv")
+
+as.data.frame(table(data$Type))
+
+data
+```
