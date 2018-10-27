@@ -1,0 +1,846 @@
+"","X.1","X","Condition","Price","Model_Year","Mileage","Exterior_Color","Make","Type","Feedback_Perc","N_Reviews","Seller_Status","Auction","Buy_Now","num_pos_words","uses_excl","all_caps","has_warranty","review_polarity","review_positivity"
+"3265",3265,3265,"Used",16.88,2012,33994,"black","Other","Cruiser",100,922,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4151",4151,4151,"Used",13674.55,2015,1136,"black","Kawasaki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5211",5211,5211,"Used",3898.48,2008,14627,"red","Honda","Sport Bike",4.7,12409,"other",FALSE,FALSE,1,FALSE,FALSE,FALSE,0.4,0.8
+"976",976,976,"Used",32787.64,2009,5628,"yellow","Honda","Standard",100,1,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4307",4307,4307,"Used",2295.32,2006,25807,"blue","Honda","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"284",284,284,"Used",30699.9,2013,10001,"black","Harley-Davidson","Touring",100,46,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2801",2801,2801,"Used",569.66,2007,7500,"black","Other","Café Racer",9.2,6104,"other",TRUE,FALSE,1,TRUE,TRUE,FALSE,0.5,0.75
+"561",561,561,"Used",3548.88,2012,1226,"blue","Harley-Davidson","Cruiser",100,219,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"52",52,52,"Used",7387.27,2015,1530,"other","Harley-Davidson","Dual-Purpose",100,18,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"798",798,798,"Used",10884.07,2006,12000,"other","Harley-Davidson","Touring",100,824,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4557",4557,4557,"Used",13665.88,2015,1740,"black","Harley-Davidson","Cruiser",100,163,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4950",4950,4950,"Used",9440.94,2004,3450,"red","Other","Chopper",3.4,738,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"78",78,78,"Used",62907.22,2016,3355,"other","Harley-Davidson","Touring",100,1016,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4787",4787,4787,"New",27795.9,2017,0,"other","Other","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3419",3419,3419,"Used",14009.59,2013,9426,"black","Suzuki","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4563",4563,4563,"Used",8722.67,2014,807,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4894",4894,4894,"Used",11719.8,2012,9994,"blue","Yamaha","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4932",4932,4932,"New",10224.5,2017,0,"red","Ducati","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"613",613,613,"Used",21380.16,2014,592,"other","Harley-Davidson","Touring",100,64,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"803",803,803,"Used",8680.53,2005,14000,"black","Harley-Davidson","Touring",100,751,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4870",4870,4870,"Used",10886.28,2008,12859,"other","Can-Am","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3605",3605,3605,"New",14379.1,2017,1,"red","Yamaha","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"619",619,619,"Used",14947.3,2011,28368,"other","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,1,TRUE,FALSE,FALSE,0.925,0.875
+"4693",4693,4693,"New",18836.4,2017,4,"black","Indian","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4907",4907,4907,"Used",11442.71,2011,12316,"green","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"453",453,453,"Used",15.36,2007,18247,"white","Harley-Davidson","Touring",100,195,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,TRUE,0.3,0.425
+"431",431,431,"Used",25202.23,2015,6488,"black","Harley-Davidson","Touring",100,340,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,TRUE,0.568181818,0.727272727
+"2055",2055,2055,"Used",7590.69,2009,10107,"orange","Suzuki","Sport Bike",100,152,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4707",4707,4707,"New",13530,2017,0,"red","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5261",5261,5261,"Used",6505.33,2008,52418,"white","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"294",294,294,"Used",7935.88,2012,4500,"red","Harley-Davidson","Cruiser",100,72,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"725",725,725,"New",7769.84,2016,1,"black","Kawasaki","Dual-Purpose",100,876,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"3085",3085,3085,"Used",8673.82,2012,12304,"red","Triumph","Standard",100,92,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2280",2280,2280,"New",5984.28,2018,1,"blue","Yamaha","Other",9.2,5605,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"720",720,720,"Used",7579.75,2005,15141,"grey","BMW","Touring",100,55,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4743",4743,4743,"Used",12573.94,2015,2494,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1984",1984,1984,"Used",23630.12,2016,2204,"blue","Harley-Davidson","Touring",100,1342,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.342857143,0.617857143
+"4741",4741,4741,"Used",10749.48,2014,2840,"red","Yamaha","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2398",2398,2398,"Used",2610.26,1978,1e+05,"other","Triumph","Standard",100,99,"Private Seller",TRUE,FALSE,1,TRUE,FALSE,FALSE,0.4125,0.4
+"2630",2630,2630,"Used",5410.29,2006,503,"other","Suzuki","Cruiser",100,259,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1688",1688,1688,"Used",2097.39,1999,12220,"yellow","Suzuki","Sport Bike",100,57,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2682",2682,2682,"Used",740.51,1997,62888,"yellow","Honda","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"82",82,82,"Used",26065.31,2017,241,"black","Harley-Davidson","Touring",100,762,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2256",2256,2256,"Used",6732.13,2012,800,"red","Honda","Dual-Purpose",100,935,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0.196428571,0.321428571
+"4591",4591,4591,"Used",5396.9,2010,6635,"blue","Kawasaki","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3947",3947,3947,"Used",9187.44,2010,11564,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"12",12,12,"Used",8730.62,1973,9305,"white","Harley-Davidson","Trike",100,300,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4483",4483,4483,"Used",14724.21,2016,713,"black","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2114",2114,2114,"Used",9064.46,2007,3150,"green","Other","Other",100,1080,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,-0.083333333,0.133333333
+"3285",3285,3285,"Used",3824.31,1966,64869,"blue","Other","Standard",100,442,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.444444444,0.577777778
+"3003",3003,3003,"Used",39732.97,2009,7700,"other","Other","Touring",100,280,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,-0.075284091,0.313636364
+"2917",2917,2917,"Used",11507.71,2014,9223,"white","Triumph","Other",100,165,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1112",1112,1112,"New",37881.68,2016,63,"black","Honda","Touring",100,35,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2265",2265,2265,"Used",1192.98,2005,483,"red","Honda","Other",100,426,"Owner",TRUE,TRUE,1,FALSE,FALSE,FALSE,0.8,0.75
+"2038",2038,2038,"Used",6790.15,2000,29400,"black","Harley-Davidson","Cruiser",100,1,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.54375,0.6375
+"184",184,184,"Used",15236.81,2016,8381,"red","Harley-Davidson","Cruiser",100,8458,"other",TRUE,TRUE,1,FALSE,TRUE,TRUE,1,1
+"1679",1679,1679,"Used",29588.78,2013,17528,"black","Harley-Davidson","Touring",100,1933,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0,0
+"2487",2487,2487,"Used",3856.13,2010,8000,"white","Ducati","Sport Bike",100,88,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2033",2033,2033,"Used",657.03,1986,40000,"red","Honda","Touring",100,120,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2305",2305,2305,"Used",2114.46,2010,20007,"red","Honda","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5126",5126,5126,"Used",5356.74,2015,999999,"black","Suzuki","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"8",8,8,"Used",12111.34,2011,5800,"black","Harley-Davidson","Touring",100,83,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3241",3241,3241,"Used",20785.18,2011,26170,"black","Harley-Davidson","Gasoline",100,14,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3040",3040,3040,"New",74239.78,2017,1375,"red","Other","Sport Bike",100,122,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3087",3087,3087,"Used",21836.74,2011,15147,"black","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1773",1773,1773,"Used",18306.2,2008,23865,"grey","Harley-Davidson","Cruiser",100,80,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"514",514,514,"Used",10278.82,2012,3559,"red","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.6,0.683333333
+"1306",1306,1306,"New",16497.36,2017,0,"grey","Kawasaki","Sport Bike",100,903,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3985",3985,3985,"Used",2704,1971,0,"grey","Honda","Other",100,26,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4862",4862,4862,"New",11990,2017,0,"white","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2922",2922,2922,"Used",14.11,2001,27219,"other","Other","Touring",100,146,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1486",1486,1486,"New",1430,2017,0,"red","Suzuki","Standard",100,3453,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4332",4332,4332,"Used",9211.65,2002,45479,"red","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4912",4912,4912,"New",28114.9,2017,0,"other","Other","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1461",1461,1461,"Used",9142.27,1975,15102,"red","Triumph","Standard",100,2720,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1548",1548,1548,"Used",2654.26,2001,26140,"green","Kawasaki","Sport Bike",100,309,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.244166667,0.770833333
+"464",464,464,"Used",8129.47,2007,20800,"black","Harley-Davidson","Touring",100,63,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1692",1692,1692,"Used",6543.27,2014,5,"blue","Kawasaki","Touring",100,7,"Private Seller",TRUE,FALSE,2,FALSE,FALSE,TRUE,-0.044444444,0.866666667
+"1894",1894,1894,"Used",5698.69,2007,39368,"white","Honda","Touring",100,147,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2624",2624,2624,"Used",1859.23,2001,7167,"grey","Yamaha","Cruiser",100,20,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"162",162,162,"Used",6234,1981,100,"white","Honda","Café Racer",100,778,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5186",5186,5186,"Used",7213.23,2014,4470,"blue","BMW","Dual-Purpose",8.6,1122,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2993",2993,2993,"Used",18589.38,2014,14505,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2098",2098,2098,"Used",2248.91,1971,0,"orange","Yamaha","Other",100,563,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.118181818,0.277272727
+"3268",3268,3268,"Used",22196.89,2016,1622,"other","Victory","Touring",100,1342,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4878",4878,4878,"New",58185.7,2016,0,"red","Other","Gasoline",100,573,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3420",3420,3420,"Used",13105.71,2016,6563,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1225",1225,1225,"Used",11029.79,2015,2040,"black","BMW","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2051",2051,2051,"Used",3186.78,2009,4838,"black","Other","Sport Bike",100,888,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"3720",3720,3720,"New",11550,2017,7,"yellow","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2883",2883,2883,"Used",9752.07,2013,44025,"black","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2190",2190,2190,"Used",1447.12,1987,0,"white","Yamaha","Off-Road",100,68,"Private Seller",TRUE,TRUE,1,TRUE,FALSE,FALSE,1,1
+"5202",5202,5202,"Used",5144.58,2007,20780,"black","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4770",4770,4770,"Used",6488.23,2011,19293,"white","Suzuki","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2418",2418,2418,"Used",11011.62,2013,3205,"red","Ducati","Sport Bike",100,599,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,-0.025568182,0.664772727
+"1580",1580,1580,"Used",10364.71,2013,2274,"blue","Yamaha","Sport Bike",100,22,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3911",3911,3911,"Used",6474.87,2005,15890,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1333",1333,1333,"New",44748,2017,1,"red","Honda","Trike",100,430,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4160",4160,4160,"Used",13415.33,2014,6048,"red","Harley-Davidson","Cruiser",3.4,738,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"67",67,67,"Used",6571.27,2003,46000,"black","Harley-Davidson","Touring",9.4,2823,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.568181818,0.727272727
+"1624",1624,1624,"Used",743.23,1982,794,"blue","Suzuki","Other",100,551,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5254",5254,5254,"Used",3215.2,2008,5883,"grey","Yamaha","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3700",3700,3700,"New",9114.1,2017,0,"blue","Yamaha","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"774",774,774,"Used",5008.13,2009,17152,"other","Harley-Davidson","Touring",7.7,1192,"Private Seller",FALSE,TRUE,1,TRUE,FALSE,FALSE,1,1
+"1438",1438,1438,"Used",329.07,2007,15416,"red","Yamaha","Sport Bike",100,117,"other",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2939",2939,2939,"Used",155.24,2005,14417,"blue","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1547",1547,1547,"Used",2845.57,2001,5052,"black","Harley-Davidson","Custom",100,94,"Private Seller",TRUE,FALSE,1,TRUE,FALSE,FALSE,1,1
+"519",519,519,"Used",27588.96,2013,4600,"black","Harley-Davidson","Cruiser",100,432,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.136363636,0.454545455
+"1631",1631,1631,"Used",11457.74,2015,6100,"black","Triumph","Other",100,62,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"913",913,913,"Used",12385.06,2008,22520,"other","Harley-Davidson","Touring",8.8,101,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1544",1544,1544,"Used",6039.75,2003,10146,"black","Honda","Touring",100,14,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1885",1885,1885,"Used",1851.07,2000,13262,"black","Honda","Other",100,92,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3747",3747,3747,"Used",2510.9,2003,19727,"other","Yamaha","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3983",3983,3983,"New",12535.68,2014,0,"black","Suzuki","Cruiser",100,1354,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3970",3970,3970,"Used",401.28,2008,30379,"black","Suzuki","Sport Bike",100,8,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3356",3356,3356,"Used",17358.03,2016,5418,"black","Victory","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"314",314,314,"Used",8899.37,2007,16000,"blue","Harley-Davidson","Cruiser",100,1082,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.468181818,0.602272727
+"5215",5215,5215,"Used",4414.3,2007,58109,"red","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3977",3977,3977,"New",27374.5,2018,0,"black","BMW","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"349",349,349,"Used",3969,2012,11718,"black","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.222222222,0.5
+"3727",3727,3727,"Used",11401.69,2013,5072,"green","Can-Am","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3870",3870,3870,"Used",18320.87,2005,3021,"other","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1868",1868,1868,"New",31678.68,2017,2,"other","Other","Other",100,35,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4574",4574,4574,"Used",14757.28,2015,6386,"red","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1200",1200,1200,"New",6402.34,2017,0,"red","Yamaha","Sport Bike",9.2,5605,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2314",2314,2314,"Used",7559.23,2000,6500,"black","Other","Chopper",100,597,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.7,0.466666667
+"3810",3810,3810,"Used",11445.09,2013,14493,"other","Ducati","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1804",1804,1804,"Used",4295,2008,6000,"black","Kawasaki","Sport Bike",100,4,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2900",2900,2900,"Used",17.26,1993,1246,"black","Suzuki","Sport Bike",100,113,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"321",321,321,"Used",18726.59,2015,2810,"black","Harley-Davidson","Cruiser",100,910,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"1920",1920,1920,"Used",3961.57,2004,23000,"red","Ducati","Touring",8.9,1349,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1389",1389,1389,"Used",4133.95,2015,450,"black","Kawasaki","Sport Bike",9.1,307,"Private Seller",TRUE,FALSE,0,TRUE,FALSE,TRUE,0,0
+"2535",2535,2535,"Used",2844.63,2005,15600,"black","Suzuki","Cruiser",100,497,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.5,0.65
+"3685",3685,3685,"New",29499.1,2017,1,"black","Indian","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3425",3425,3425,"Used",14174.83,2015,2247,"black","Harley-Davidson","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5156",5156,5156,"New",20898.9,2017,3,"blue","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4142",4142,4142,"Used",16997.9,2017,164,"black","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"362",362,362,"Used",6472.03,2006,40000,"blue","Harley-Davidson","Touring",100,3,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1776",1776,1776,"Used",2744.07,2010,46308,"grey","BMW","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"58",58,58,"Used",26013.91,2012,22000,"red","Harley-Davidson","Touring",100,30,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1659",1659,1659,"Used",1370.47,2005,9539,"blue","BMW","Touring",100,60,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2718",2718,2718,"Used",189.58,2011,1544,"green","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5218",5218,5218,"Used",2494.91,2007,4959,"black","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3756",3756,3756,"Used",7601.24,2008,2880,"black","Yamaha","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"540",540,540,"Used",12048.46,2009,24258,"black","Harley-Davidson","Touring",100,2,"other",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.319166667,0.526666667
+"3292",3292,3292,"Used",15257.07,2016,16199,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4317",4317,4317,"Used",6554.49,1995,25612,"white","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2438",2438,2438,"Used",2030.8,2009,5610,"other","Kawasaki","Cruiser",9.5,25513,"other",TRUE,FALSE,1,FALSE,FALSE,FALSE,1,1
+"3289",3289,3289,"Used",1348.39,2000,7792,"grey","Other","Sport Bike",9.5,1131,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2652",2652,2652,"Used",26705.29,2015,5833,"other","Harley-Davidson","Gasoline",100,4,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2339",2339,2339,"Used",7225.06,2002,12000,"red","Indian","Touring",100,542,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.78,1
+"3908",3908,3908,"New",32244.1,2017,1,"white","Can-Am","Touring",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4848",4848,4848,"New",20249.9,2017,0,"black","Other","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1316",1316,1316,"Used",11217.68,2016,100,"black","Honda","Other",100,21,"Owner",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4705",4705,4705,"Used",12520.9,2006,82914,"blue","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"4360",4360,4360,"Used",17696.31,2015,473,"green","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1500",1500,1500,"Used",650.89,1986,29553,"black","Honda","Cruiser",100,218,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,FALSE,0.15,0.95
+"3601",3601,3601,"New",15997.1,2015,1,"blue","Yamaha","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"269",269,269,"Used",11892.46,2012,8000,"black","Harley-Davidson","Touring",100,86,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,1,1
+"4979",4979,4979,"New",24726.9,2017,0,"red","Other","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3713",3713,3713,"Used",16411.47,2015,4201,"grey","Can-Am","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4740",4740,4740,"Used",6513.94,2013,2199,"black","Suzuki","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"608",608,608,"Used",8574.91,2011,30000,"red","Harley-Davidson","Touring",100,226,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2614",2614,2614,"Used",2725.51,2008,0,"blue","Yamaha","Off-Road",100,96,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0.8,0.75
+"3212",3212,3212,"Used",13634.83,2002,5000,"other","Other","Chopper",100,23,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1239",1239,1239,"New",7916.36,2016,0,"green","Kawasaki","Sport Bike",100,903,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4228",4228,4228,"Used",10356.78,2015,6715,"other","Suzuki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"536",536,536,"Used",9234.06,2002,5400,"other","Harley-Davidson","Other",100,1,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2510",2510,2510,"New",6318.4,2017,0,"other","Kawasaki","Off-Road",100,689,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1625",1625,1625,"Used",1254.82,1955,9999999,"other","Indian","Dual-Purpose",100,5672,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3179",3179,3179,"Used",4806.04,2005,67205,"other","Yamaha","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1634",1634,1634,"Used",24648.86,2016,18104,"black","Harley-Davidson","Standard",100,635,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4671",4671,4671,"Used",31180.87,2016,1185,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"224",224,224,"Used",30942.98,2016,1812,"black","Harley-Davidson","Cruiser",100,56,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3366",3366,3366,"Used",7211.62,2006,10277,"red","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2371",2371,2371,"New",9896.68,2015,0,"white","Suzuki","Cruiser",100,334,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"1886",1886,1886,"New",5231.28,2017,0,"other","Yamaha","Standard",9.7,21748,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1035",1035,1035,"Used",8182.65,2004,29771,"black","Harley-Davidson","Touring",100,2,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.8,0.75
+"5116",5116,5116,"New",16935.5,2018,0,"red","Ducati","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4058",4058,4058,"Used",19645.95,2015,13433,"red","Harley-Davidson","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1498",1498,1498,"Used",1526.9,2005,20137,"red","Yamaha","Sport Bike",100,88,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4042",4042,4042,"Used",562.21,2014,9690,"red","Harley-Davidson","Gasoline",100,4,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"3675",3675,3675,"Used",11466.33,2016,3155,"other","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3297",3297,3297,"Used",4649.07,1996,12000,"other","Other","Sport Bike",100,664,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1069",1069,1069,"Used",3425.49,1993,25622,"black","Kawasaki","Naked",100,232,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3290",3290,3290,"Used",14181.37,2010,20186,"green","Ural","Dual-Purpose",100,274,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5245",5245,5245,"Used",2964.99,2003,66219,"blue","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4616",4616,4616,"Used",9545.11,2010,29127,"black","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3257",3257,3257,"Used",2923.06,2004,430,"grey","Other","Touring",100,9,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.468181818,0.602272727
+"3937",3937,3937,"Used",22942.56,2013,12629,"other","Harley-Davidson","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"285",285,285,"Used",33577.15,2016,3247,"black","Harley-Davidson","Touring",100,306,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"1062",1062,1062,"Used",664.75,1969,3212,"red","Honda","Dual-Purpose",100,721,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1085",1085,1085,"Used",3067.33,1974,8829,"green","Yamaha","Other",100,805,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.291666667,0.55
+"1931",1931,1931,"New",8577.36,2017,0,"red","Honda","Dual-Purpose",100,903,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4598",4598,4598,"Used",4861.8,2014,3713,"other","Yamaha","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4391",4391,4391,"Used",11982.03,2006,13181,"blue","Harley-Davidson","Gasoline",100,28,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4367",4367,4367,"Used",5370.87,2004,26989,"black","Suzuki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"102",102,102,"Used",7240.9,1996,8250,"other","Harley-Davidson","Touring",100,56,"Private Seller",TRUE,TRUE,2,TRUE,FALSE,FALSE,0.340151515,0.468181818
+"3803",3803,3803,"Used",7274.45,2011,26768,"orange","Can-Am","Sport Bike",3.4,738,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1571",1571,1571,"Used",27458.66,2005,37566,"blue","Honda","Trike",100,430,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2849",2849,2849,"Used",5953.87,2004,1111,"white","Other","Chopper",100,60,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"214",214,214,"Used",14053.13,2016,10189,"blue","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,2,FALSE,FALSE,TRUE,0.925,1
+"159",159,159,"Used",25493.77,2012,41064,"red","Harley-Davidson","Touring",96,210,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"298",298,298,"Used",5846.93,2006,19066,"black","Harley-Davidson","Touring",100,2452,"Private Seller",TRUE,FALSE,3,TRUE,FALSE,FALSE,1,1
+"616",616,616,"Used",7532.8,2004,17000,"black","Harley-Davidson","Touring",100,941,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.5,0.65
+"1914",1914,1914,"Used",306.44,2005,11000,"red","Yamaha","Cruiser",100,405,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1084",1084,1084,"Used",2388.73,1975,52711,"blue","Honda","Standard",100,49,"Private Seller",TRUE,FALSE,2,FALSE,FALSE,FALSE,1,1
+"1797",1797,1797,"Used",20808.71,2014,5058,"red","Ducati","Sport Bike",100,142,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2698",2698,2698,"Used",2760.78,2009,9156,"black","Suzuki","Cruiser",5.8,341,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1761",1761,1761,"New",9249.2,2017,2,"white","BMW","Other",9.2,1742,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4071",4071,4071,"Used",9053.64,2013,2448,"red","Victory","Cruiser",86,41,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"4230",4230,4230,"Used",13354.31,2013,287,"black","Suzuki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4904",4904,4904,"Used",9768.35,2012,7077,"red","Ducati","Sport Bike",100,189,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2414",2414,2414,"Used",108,2015,0,"yellow","Suzuki","Gasoline",100,28,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3283",3283,3283,"Used",10639.79,2014,2755,"black","Other","Touring",100,735,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1303",1303,1303,"New",7643,2015,0,"black","Kawasaki","Gasoline",50,335,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1826",1826,1826,"Used",19422.07,2008,14662,"black","Harley-Davidson","Other",100,238,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2160",2160,2160,"Used",5428.57,2016,1036,"red","Honda","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5151",5151,5151,"New",20898.9,2017,2,"black","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1574",1574,1574,"Used",885.07,2007,4880,"blue","Yamaha","Scooter",100,168,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4842",4842,4842,"Used",19693.68,2014,13123,"blue","Harley-Davidson","Gasoline",100,28,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"391",391,391,"Used",3655.12,1972,35892,"green","Honda","Touring",100,198,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"141",141,141,"Used",4545.54,2003,25500,"red","Harley-Davidson","Touring",100,59,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"573",573,573,"Used",5852.25,2014,4726,"orange","Harley-Davidson","Cruiser",9.8,9355,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,-0.291666667,0.541666667
+"3090",3090,3090,"Used",1085.48,2004,30000,"other","Other","Touring",7.3,221,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0.3,0.6
+"3603",3603,3603,"New",14109.1,2017,1,"white","Kawasaki","Sport Bike",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3044",3044,3044,"Used",11747.51,2012,69495,"red","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5196",5196,5196,"New",20898.9,2017,3,"black","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"21",21,21,"Used",10300.38,2009,3769,"red","Harley-Davidson","Touring",100,175,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.068181818,0.727272727
+"893",893,893,"Used",11886.24,2010,7910,"other","BMW","Touring",100,726,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5051",5051,5051,"New",12320,2017,0,"red","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"792",792,792,"Used",4350.59,1990,1e+05,"other","Harley-Davidson","Other",100,460,"Owner",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.7,0.6
+"2590",2590,2590,"Used",17184.08,2016,3171,"blue","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"777",777,777,"Used",10870.99,2006,44406,"black","Harley-Davidson","Touring",100,20,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4788",4788,4788,"Used",6471.62,2011,23252,"black","Honda","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1878",1878,1878,"Used",28360.08,1947,21858,"red","Indian","Standard",100,53,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"264",264,264,"New",64548,2017,0,"red","Honda","Touring",100,1645,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"1054",1054,1054,"Used",5636.4,1996,15676,"red","BMW","Touring",100,21,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3719",3719,3719,"Used",15271.56,2004,25180,"other","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"259",259,259,"Used",4728.19,2006,13475,"other","Harley-Davidson","Cruiser",7.6,600,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.45,0.475
+"4090",4090,4090,"Used",9213.15,2003,47817,"black","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3717",3717,3717,"Used",12853.07,2007,16373,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1151",1151,1151,"Used",11536.23,1977,2000,"blue","Harley-Davidson","Chopper",100,230,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.230681818,0.564772727
+"3978",3978,3978,"New",11217.68,2016,0,"blue","Suzuki","Sport Bike",100,1354,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"1272",1272,1272,"Used",5237.1,2001,44582,"black","Harley-Davidson","Cruiser",100,632,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,FALSE,0.836666667,0.76
+"2547",2547,2547,"Used",24372.29,2017,2800,"black","Indian","Touring",100,47,"other",FALSE,TRUE,1,TRUE,FALSE,FALSE,0.170454545,0.454545455
+"542",542,542,"Used",13056.79,2000,55300,"green","Harley-Davidson","Touring",100,2,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1166",1166,1166,"Used",26389.61,2010,17416,"other","Honda","Touring",100,1645,"other",FALSE,TRUE,1,TRUE,TRUE,FALSE,0,0.3
+"1865",1865,1865,"New",13.37,2014,1,"grey","Yamaha","Cruiser",100,2246,"other",TRUE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4110",4110,4110,"Used",12549.69,2015,13647,"black","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"569",569,569,"Used",21892.53,2011,14000,"black","Harley-Davidson","Touring",100,163,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5161",5161,5161,"New",26288.9,2017,3,"other","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2445",2445,2445,"Used",16422.19,2016,1410,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"964",964,964,"Used",7089,1974,39,"red","Honda","Touring",9.6,611,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3574",3574,3574,"Used",16324.98,2008,26950,"black","Harley-Davidson","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1024",1024,1024,"Used",9766.16,2010,42800,"red","Harley-Davidson","Touring",100,179,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3555",3555,3555,"New",14649.1,2017,0,"other","Kawasaki","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3512",3512,3512,"Used",9145.69,2013,1149,"other","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"3526",3526,3526,"Used",10873.24,2007,38796,"other","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"680",680,680,"Used",759.44,1973,999999,"black","Kawasaki","Dual-Purpose",9.9,42714,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4296",4296,4296,"Used",3695.71,1995,55223,"black","Honda","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3967",3967,3967,"Used",14177.59,2012,56000,"other","Kawasaki","Touring",86,41,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.7,0.6
+"4361",4361,4361,"Used",14373.33,2005,10213,"orange","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2923",2923,2923,"Used",2150.08,2007,30000,"blue","Other","Sport Bike",100,321,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.55,0.5
+"5015",5015,5015,"New",17595.5,2018,0,"white","Ducati","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2060",2060,2060,"Used",1042.2,2015,3396,"blue","Yamaha","Cruiser",100,37,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2108",2108,2108,"Used",7757.65,2015,475,"red","Yamaha","Cruiser",8.8,101,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2221",2221,2221,"Used",1575.71,2012,9690,"red","Suzuki","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4642",4642,4642,"Used",7025,2007,20953,"other","Kawasaki","Gasoline",100,1452,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3890",3890,3890,"New",25358.1,2016,1,"white","Can-Am","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1076",1076,1076,"Used",15354.83,2014,12300,"black","Honda","Touring",100,145,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2702",2702,2702,"Used",5219.74,2007,2929,"blue","Yamaha","Cruiser",100,286,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.275,0.475
+"3467",3467,3467,"New",19509.1,2017,1,"black","Kawasaki","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"596",596,596,"Used",12861.67,2005,12500,"black","Harley-Davidson","Cruiser",100,169,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4589",4589,4589,"Used",2645.25,2008,38352,"red","Suzuki","Cruiser",8.6,1122,"other",FALSE,FALSE,1,FALSE,FALSE,FALSE,0.5,0.5
+"378",378,378,"Used",9385.52,2012,9088,"yellow","Harley-Davidson","Cruiser",8.9,327,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.532857143,0.767857143
+"306",306,306,"Used",9802.92,2012,6051,"black","Harley-Davidson","Cruiser",100,583,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1135",1135,1135,"Used",4921.54,2013,1894,"red","Honda","Standard",100,176,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1019",1019,1019,"Used",9016.89,2008,2184,"red","Harley-Davidson","Sport Bike",100,302,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.5,1
+"496",496,496,"Used",9230.18,2006,17720,"black","Harley-Davidson","Standard",100,153,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1158",1158,1158,"Used",2746.78,1971,8521,"blue","Honda","Dual-Purpose",8.9,133,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0.3,0.5
+"1138",1138,1138,"Used",17497.59,2013,12600,"yellow","Harley-Davidson","Cruiser",100,6,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3509",3509,3509,"Used",27379.28,2017,715,"red","Harley-Davidson","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1323",1323,1323,"Used",3983.44,2014,3500,"other","Harley-Davidson","Gasoline",100,20,"Private Seller",FALSE,TRUE,3,FALSE,FALSE,FALSE,0.425,1
+"2334",2334,2334,"New",72600,2017,50,"blue","Other","Cruiser",100,64,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3620",3620,3620,"New",30399.1,2017,1,"other","Indian","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3431",3431,3431,"Used",11197.43,2003,11700,"other","Kawasaki","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4492",4492,4492,"Used",15317.35,2016,2048,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4507",4507,4507,"Used",10659.51,2010,24325,"red","Harley-Davidson","Cruiser",100,163,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1662",1662,1662,"Used",14189.02,2011,19887,"black","Harley-Davidson","Touring",100,229,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5011",5011,5011,"Used",11906.02,2014,4512,"green","Triumph","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"4744",4744,4744,"Used",16753.05,2010,19126,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"3161",3161,3161,"Used",20807.26,2016,7000,"blue","Harley-Davidson","Gasoline",100,2746,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5109",5109,5109,"New",13634.5,2017,7,"red","Ducati","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4265",4265,4265,"Used",5934.77,2010,22306,"other","Honda","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3218",3218,3218,"Used",18564.32,2015,19311,"red","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1115",1115,1115,"Used",5904.33,2009,8900,"orange","Suzuki","Sport Bike",100,87,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.45,0.5
+"568",568,568,"Used",16173.09,2008,49801,"black","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,2,FALSE,FALSE,TRUE,0.41,0.79
+"2858",2858,2858,"Used",11998.75,2013,11210,"blue","Can-Am","Touring",100,385,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2562",2562,2562,"Used",4098.17,2007,11570,"red","Ducati","Sport Bike",100,813,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.022222222,0.294444444
+"2387",2387,2387,"Used",3085.04,2008,988,"black","Suzuki","Touring",9.6,842,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"660",660,660,"Used",8013.59,2003,13800,"red","Harley-Davidson","Cruiser",100,195,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,1,1
+"3893",3893,3893,"New",29949.1,2017,1,"white","Can-Am","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"432",432,432,"Used",7937.32,2010,2535,"other","Harley-Davidson","Touring",7.4,259,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,1,1
+"520",520,520,"Used",7849.11,2009,482,"white","Harley-Davidson","Cruiser",100,37,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,FALSE,0.120265152,0.431439394
+"2648",2648,2648,"Used",3849,2016,16,"grey","Yamaha","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2838",2838,2838,"Used",2019.96,2009,25755,"black","BMW","Dual-Purpose",100,65,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,-0.05,0.2
+"2805",2805,2805,"Used",9715.11,1975,8013,"blue","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4922",4922,4922,"New",22770,2017,0,"green","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2309",2309,2309,"Used",2347.19,1969,7489,"red","Honda","Dual-Purpose",9.3,1787,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3576",3576,3576,"New",26799.1,2017,1,"black","Other","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"983",983,983,"Used",6628.81,2006,15871,"red","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.816666667,0.833333333
+"2478",2478,2478,"Used",14057,2010,50,"red","Other","Other",9.4,2024,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2293",2293,2293,"Used",1033.94,1986,0,"white","Yamaha","Off-Road",100,68,"Private Seller",TRUE,TRUE,1,TRUE,FALSE,FALSE,1,1
+"4208",4208,4208,"Used",4016.09,2005,50573,"red","Harley-Davidson","Cruiser",3.4,738,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2471",2471,2471,"Used",2450.02,1971,16115,"other","Honda","Dual-Purpose",100,1181,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2957",2957,2957,"Used",13271.89,2004,65,"green",NA,"Custom",100,205,"other",FALSE,TRUE,1,TRUE,FALSE,TRUE,0.266335227,0.454545455
+"4059",4059,4059,"Used",15240.93,2014,18156,"red","Ducati","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4748",4748,4748,"Used",3182.9,2002,5433,"black","Suzuki","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3684",3684,3684,"New",20443,2014,1,"red","Yamaha","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3494",3494,3494,"Used",5320.04,2004,19845,"black","BMW","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5243",5243,5243,"Used",2979.56,2006,28117,"black","Kawasaki","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"239",239,239,"Used",4676.69,2010,18561,"black","Harley-Davidson","Touring",2.3,175,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"4333",4333,4333,"Used",12518.12,2000,7725,"green","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1592",1592,1592,"Used",1622.18,1983,9123,"red","Honda","Standard",100,442,"other",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.368181818,0.727272727
+"1693",1693,1693,"Used",16411.9,2007,907,"black","Yamaha","Touring",100,48,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3052",3052,3052,"Used",8617.7,2017,889,"other","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4355",4355,4355,"Used",15556.05,2005,17313,"other","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"4814",4814,4814,"Used",22044.55,2013,11034,"blue","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"4321",4321,4321,"Used",38097.39,2014,15698,"black","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"575",575,575,"Used",12230.95,2000,60200,"blue","Honda","Trike",100,36,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2956",2956,2956,"Used",7567.12,2011,19692,"grey","BMW","Standard",100,92,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3887",3887,3887,"Used",20406.81,2014,5592,"white","Victory","Touring",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4158",4158,4158,"Used",7255.5,1997,10828,"red","Harley-Davidson","Cruiser",3.4,738,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3853",3853,3853,"Used",7341.64,2015,244,"other","Harley-Davidson","Chopper",9.8,2149,"Owner",TRUE,FALSE,2,FALSE,FALSE,FALSE,0.224204545,0.701515152
+"3632",3632,3632,"New",11548.9,2017,0,"red","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2737",2737,2737,"Used",5219.74,2007,2929,"blue","Yamaha","Cruiser",100,286,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.275,0.475
+"136",136,136,"Used",40384.64,2016,6988,"red","Harley-Davidson","Touring",100,1016,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2413",2413,2413,"New",4618.68,2017,0,"red","Other","Sport Bike",100,2390,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"205",205,205,"Used",7024.89,2010,23471,"black","Harley-Davidson","Touring",100,98,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0.8,0.75
+"2488",2488,2488,"Used",5973.1,2012,804,"orange","Kawasaki","Cruiser",100,59,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2304",2304,2304,"Used",13104.01,2014,8097,"other","Ducati","Touring",100,46,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2255",2255,2255,"New",15837.36,2017,0,"blue","Suzuki","Sport Bike",100,903,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3041",3041,3041,"Used",65865,1992,0,"red","Ducati","Standard",100,1444,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"961",961,961,"Used",5913.47,2009,5260,"black","Harley-Davidson","Cruiser",100,3,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.166666667,0.6
+"2",2,2,"Used",13508.03,2016,60,"black","Harley-Davidson","Touring",100,657,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,TRUE,1,1
+"937",937,937,"Used",7213.16,1993,53324,"other","Harley-Davidson","Touring",100,354,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4196",4196,4196,"Used",8128.45,2006,18858,"other","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4186",4186,4186,"Used",20128.9,2017,6,"black","BMW","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2493",2493,2493,"Used",394.31,2012,15047,"other","Kawasaki","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"550",550,550,"Used",15306.93,2011,5613,"black","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,2,FALSE,FALSE,TRUE,0.6,0.683333333
+"4602",4602,4602,"Used",29443.15,2014,6965,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1606",1606,1606,"Used",8508.19,2013,6790,"black","Honda","Cruiser",100,762,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0.3875,0.4625
+"4430",4430,4430,"Used",10361.66,2015,4120,"black","Yamaha","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"603",603,603,"Used",7599.25,2011,7150,"orange","Harley-Davidson","Cruiser",100,215,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3398",3398,3398,"Used",9446.6,2007,27735,"other","Honda","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4477",4477,4477,"Used",9881.96,2001,27456,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"5264",5264,5264,"Used",4626.67,2005,55993,"red","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"743",743,743,"Used",13.88,2006,12797,"grey","Harley-Davidson","Touring",100,43,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4103",4103,4103,"Used",8383.88,2011,1484,"black","Kawasaki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3490",3490,3490,"Used",8622.39,2007,28587,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5149",5149,5149,"New",21638.1,2017,2,"black","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3806",3806,3806,"Used",4164.36,2003,34321,"black","Harley-Davidson","Touring",9.8,3788,"other",TRUE,FALSE,0,FALSE,TRUE,FALSE,0,0
+"3624",3624,3624,"New",15366.1,2014,1,"black","Yamaha","Touring",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"194",194,194,"Used",3263.05,2014,5402,"green","Harley-Davidson","Touring",100,117,"other",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2489",2489,2489,"New",15909.6,2014,2,"other","Suzuki","Sport Bike",100,825,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"902",902,902,"Used",16952.84,2011,10000,"black","Harley-Davidson","Touring",100,2620,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.123611111,0.584722222
+"1720",1720,1720,"Used",2547.12,2007,23292,"other","Suzuki","Standard",100,183,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.6875,0.875
+"116",116,116,"Used",22699.77,2015,7023,"black","Harley-Davidson","Touring",100,499,"other",TRUE,FALSE,3,TRUE,FALSE,FALSE,0.566666667,0.788888889
+"4410",4410,4410,"Used",9782.56,2008,18665,"white","Suzuki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4388",4388,4388,"Used",11994.77,2009,6720,"black","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1956",1956,1956,"Used",6506.58,2012,4196,"red","BMW","Touring",100,249,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2103",2103,2103,"Used",3312.28,2008,2900,"other","Other","Scooter",100,4,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"443",443,443,"Used",9017.9,2002,3295,"black","Harley-Davidson","Touring",100,122,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"852",852,852,"Used",9644.6,2005,30779,"black","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.8,0.75
+"4449",4449,4449,"Used",13211.32,2013,7771,"other","Kawasaki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"654",654,654,"Used",10334.1,2005,9800,"white","Harley-Davidson","Other",100,314,"Private Seller",TRUE,FALSE,2,FALSE,FALSE,FALSE,0,0
+"1411",1411,1411,"New",7255.36,2015,0,"black","Honda","Cruiser",100,903,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3859",3859,3859,"Used",25754.32,2016,5076,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2393",2393,2393,"Used",7929.42,2008,3860,"white","Ducati","Sport Bike",100,11,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2643",2643,2643,"Used",4093.95,2008,11600,"red","Victory","Cruiser",100,66,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"1202",1202,1202,"New",19321.5,2017,10,"black","BMW","Naked",100,12,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4831",4831,4831,"Used",12898.48,2014,509,"white","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"715",715,715,"Used",10752.64,2005,83793,"other","Honda","Cruiser",100,120,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2215",2215,2215,"Used",4570.03,2007,4898,"black","Yamaha","Touring",100,522,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4434",4434,4434,"Used",9215.89,2002,29761,"black","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1387",1387,1387,"New",15178.68,2017,1,"black","Yamaha","Sport Bike",100,35,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4384",4384,4384,"Used",8694.68,2012,12361,"other","Kawasaki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4895",4895,4895,"Used",14978.71,2009,828,"grey","Suzuki","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4365",4365,4365,"Used",9243.03,2008,6550,"blue","Suzuki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2468",2468,2468,"Used",10870.81,2011,40910,"green","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2291",2291,2291,"Used",969.58,1989,1706,"red","Suzuki","Sport Bike",100,111,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3882",3882,3882,"Used",19764.18,2011,14500,"blue","Harley-Davidson","Standard",6.4,992,"Private Seller",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1240",1240,1240,"Used",22875.67,2016,1800,"white","Other","Other",100,205,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,TRUE,0.068181818,0.227272727
+"4237",4237,4237,"Used",4383.22,2004,20295,"white","Honda","Sport Bike",3.4,738,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2439",2439,2439,"Used",2919.2,2001,6702,"black","Harley-Davidson","Standard",100,518,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2463",2463,2463,"Used",4474.89,2002,17800,"orange","Yamaha","Cruiser",100,661,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0.8,0.75
+"699",699,699,"Used",6471.14,2003,24000,"black","Harley-Davidson","Cruiser",100,388,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"646",646,646,"Used",3481.24,2004,7800,"other","Harley-Davidson","Cruiser",9.6,10521,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"4669",4669,4669,"Used",8683.33,2012,24755,"other","Kawasaki","Gasoline",100,1452,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"405",405,405,"Used",12883.44,2013,7019,"black","Harley-Davidson","Cruiser",100,238,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4802",4802,4802,"Used",13093.55,2014,4726,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2502",2502,2502,"Used",3809.94,2012,16500,"blue","Yamaha","Touring",100,2719,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.375,0.75
+"3542",3542,3542,"Used",19737.85,2016,367,"green","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"343",343,343,"Used",4081.49,2001,20210,"red","Harley-Davidson","Cruiser",100,225,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0.8,0.75
+"4460",4460,4460,"Used",12730.03,2016,4012,"other","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3195",3195,3195,"Used",3462.41,2010,19134,"black","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3333",3333,3333,"Used",21870.76,2009,22116,"blue","Victory","Touring",100,179,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2022",2022,2022,"Used",5342.71,1995,74500,"white","Honda","Cruiser",100,740,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"747",747,747,"Used",3178.69,2008,8714,"blue","Harley-Davidson","Touring",100,81,"Private Seller",TRUE,TRUE,1,FALSE,TRUE,FALSE,0.136363636,0.454545455
+"5074",5074,5074,"New",14284.8,2015,7,"green","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2123",2123,2123,"Used",7034.41,2006,11600,"black","Honda","Sport Bike",100,85,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5224",5224,5224,"Used",5184,2009,0,"black","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3643",3643,3643,"New",15547.1,2015,1,"red","Yamaha","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3897",3897,3897,"New",32423.1,2016,1,"black","Can-Am","Touring",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2430",2430,2430,"New",6870.8,2015,0,"red","Honda","Off-Road",100,1342,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2032",2032,2032,"Used",7451.05,1998,24224,"white","Yamaha","Sport Bike",100,279,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3452",3452,3452,"Used",43047.58,2016,4476,"red","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"651",651,651,"Used",21329.31,2007,23600,"black","Harley-Davidson","Touring",100,395,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4812",4812,4812,"Used",26281.87,2015,4347,"other","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2450",2450,2450,"Used",4612.27,2005,1200,"blue","Other","Chopper",9.6,498,"Private Seller",TRUE,FALSE,1,FALSE,TRUE,FALSE,1,1
+"65",65,65,"Used",6816.82,2016,1700,"black","BMW","Naked",100,383,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,TRUE,0.136363636,0.454545455
+"2553",2553,2553,"Used",201.39,2016,1288,"black","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2499",2499,2499,"Used",6670.09,2005,70000,"red","Yamaha","Touring",100,413,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.118181818,0.327272727
+"985",985,985,"Used",6568.56,1971,16000,"other","BMW","Touring",100,179,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.8,0.75
+"4827",4827,4827,"Used",26259.66,2012,21980,"other","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"4789",4789,4789,"Used",30266.98,2016,1841,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2018",2018,2018,"Used",2844.84,2009,13909,"grey","Yamaha","Cruiser",100,1405,"other",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.366666667,0.716666667
+"4638",4638,4638,"Used",6817.9,2016,76,"black","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3929",3929,3929,"New",32244.1,2017,1,"white","Can-Am","Touring",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3564",3564,3564,"New",18833.1,2016,1,"white","Yamaha","Sport Bike",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5213",5213,5213,"Used",9479.18,2013,16033,"black","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1560",1560,1560,"New",16298.68,2015,0,"red","Yamaha","Dual-Purpose",100,334,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4372",4372,4372,"Used",6477.89,2008,29752,"other","Yamaha","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2618",2618,2618,"Used",3128.78,2007,15100,"red","Ducati","Café Racer",100,34,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4263",4263,4263,"Used",9786.8,2009,14912,"black","Suzuki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"993",993,993,"Used",2030.65,1971,1320,"red","Harley-Davidson","Dual-Purpose",100,2467,"Owner",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3864",3864,3864,"New",34317.68,2016,0,"other","Honda","Touring",100,1354,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"649",649,649,"Used",13005.13,2014,10200,"other","Harley-Davidson","Cruiser",100,339,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"1536",1536,1536,"New",2501.4,2017,0,"red","Other","Sport Bike",100,2390,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"611",611,611,"Used",4928.07,1976,36067,"blue","BMW","Touring",100,58,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4800",4800,4800,"Used",2208.04,1993,33262,"black","Suzuki","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1106",1106,1106,"Used",7784.91,2005,15533,"blue","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.55,0.683333333
+"4974",4974,4974,"New",24726.9,2017,0,"red","Other","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"856",856,856,"Used",29380.71,2015,8500,"other","Harley-Davidson","Trike",100,397,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.136363636,0.454545455
+"605",605,605,"Used",8087.12,2013,9069,"blue","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,1,FALSE,FALSE,TRUE,0.836666667,0.76
+"188",188,188,"Used",38646.49,2017,1490,"black","Harley-Davidson","Touring",100,1016,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2722",2722,2722,"Used",167.86,2006,4986,"grey","Honda","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3088",3088,3088,"Used",15603.98,2006,4456,"black","Other","Cruiser",96,210,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4130",4130,4130,"Used",6707.6,2011,20542,"white","Suzuki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3334",3334,3334,"Used",74191.7,2017,0,"blue","Other","Gasoline",100,1765,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4252",4252,4252,"Used",4904.8,2001,1,"black","Other","Gasoline",8.6,2251,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"658",658,658,"New",4932.54,2016,1,"other","Yamaha","Naked",9.2,5605,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"190",190,190,"Used",6234,1981,100,"white","Honda","Café Racer",100,778,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4649",4649,4649,"Used",7613.13,2015,3559,"grey","Kawasaki","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"674",674,674,"Used",7993.34,1992,48477,"red","Harley-Davidson","Touring",100,1325,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.568181818,0.727272727
+"79",79,79,"Used",20249.57,2008,3800,"black","Harley-Davidson","Touring",100,194,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2355",2355,2355,"Used",1375.01,1978,5994,"black","Suzuki","Cruiser",100,37,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2977",2977,2977,"Used",18593.21,2015,12075,"red","Harley-Davidson","Gasoline",100,4,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"169",169,169,"Used",13423.88,2006,90379,"white","BMW","Touring",96,718,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"4288",4288,4288,"Used",16498.84,2005,11296,"blue","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2728",2728,2728,"Used",4171.34,2000,4750,"red","Kawasaki","Cruiser",100,73,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3833",3833,3833,"Used",8498.37,2016,1851,"other","Yamaha","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2794",2794,2794,"Used",27722.52,2009,8419,"red","Harley-Davidson","Gasoline",100,14,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1042",1042,1042,"New",18461.84,2016,1,"grey","Kawasaki","Touring",100,876,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2251",2251,2251,"Used",2437.89,1946,0,"red","Other","Scooter",100,1098,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.7,0.6
+"1883",1883,1883,"Used",10368.47,2004,258,"other","Yamaha","Sport Bike",100,16,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"571",571,571,"Used",15699.22,2015,2800,"red","Harley-Davidson","Cruiser",100,1285,"Private Seller",TRUE,FALSE,2,FALSE,FALSE,FALSE,0.36,0.498
+"2636",2636,2636,"Used",2836.43,2002,29225,"green","Kawasaki","Touring",100,1149,"Private Seller",TRUE,TRUE,3,TRUE,FALSE,FALSE,0.489583333,0.633333333
+"516",516,516,"Used",10766.94,2013,4327,"red","Harley-Davidson","Cruiser",9.8,9355,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.4,0.375
+"3440",3440,3440,"Used",5966.33,2015,2585,"black","Honda","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3486",3486,3486,"Used",20801.61,2014,4267,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2756",2756,2756,"Used",2589.88,1982,8200,"red","Suzuki","Sport Bike",100,551,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"700",700,700,"Used",8669.74,2007,35442,"other","Harley-Davidson","Cruiser",100,259,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3104",3104,3104,"Used",12019.29,2014,1756,"grey","Other","Naked",100,430,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4762",4762,4762,"New",13255,2017,0,"other","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4334",4334,4334,"Used",6473.67,2008,45371,"other","Yamaha","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3904",3904,3904,"New",17101.64,2017,300,"grey","Yamaha","Sport Bike",100,1354,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4519",4519,4519,"Used",7020.75,2005,23976,"other","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1142",1142,1142,"Used",832.83,1980,12292,"red","Honda","Dual-Purpose",100,52,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"160",160,160,"Used",39505.15,2015,3996,"black","Harley-Davidson","Touring",100,1016,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4217",4217,4217,"Used",4280.18,2005,12989,"other","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2711",2711,2711,"Used",22479.48,2013,4686,"black","Harley-Davidson","Gasoline",100,4,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1569",1569,1569,"Used",3836.92,1978,12500,"other","Honda","Sport Bike",100,303,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.136363636,0.454545455
+"5150",5150,5150,"New",26321.9,2017,2,"black","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2965",2965,2965,"Used",4279.26,2002,7820,"blue","Triumph","Touring",100,74,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3048",3048,3048,"Used",9280.02,2016,517,"red","Victory","Cruiser",100,259,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5084",5084,5084,"New",14293.5,2016,7,"white","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1270",1270,1270,"Used",17049,2016,20,"black","Kawasaki","Café Racer",100,24,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1474",1474,1474,"Used",13599.05,2017,805,"white","Indian","Touring",100,251,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,TRUE,0,0
+"2104",2104,2104,"Used",7037.81,2005,6058,"blue","Suzuki","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"446",446,446,"Used",6532.55,2002,46581,"red","Harley-Davidson","Touring",100,268,"Private Seller",TRUE,FALSE,2,FALSE,FALSE,FALSE,0.235353535,0.547474747
+"718",718,718,"Used",3158.73,2003,25000,"blue","BMW","Touring",7.9,1191,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5182",5182,5182,"New",25738.9,2017,3,"black","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"652",652,652,"Used",13648.52,2008,4222,"blue","Harley-Davidson","Cruiser",100,91,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3665",3665,3665,"Used",9015.2,2008,16000,"black","Harley-Davidson","Touring",100,363,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1608",1608,1608,"Used",3864.08,2012,8523,"red","Kawasaki","Sport Bike",100,1570,"other",TRUE,TRUE,1,FALSE,FALSE,FALSE,0.068181818,0.265734266
+"1481",1481,1481,"Used",8250.53,2010,14000,"red","Harley-Davidson","Cruiser",100,221,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2962",2962,2962,"Used",4339.9,2008,18391,"other","Triumph","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3559",3559,3559,"Used",22993.39,2015,25621,"other","Harley-Davidson","Gasoline",100,28,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3426",3426,3426,"New",25449.1,2017,1,"other","Indian","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"989",989,989,"Used",14159.26,1999,31697,"red","Harley-Davidson","Other",100,347,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4618",4618,4618,"Used",18294.96,2013,7286,"orange","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"752",752,752,"Used",24941.23,2014,2386,"orange","Harley-Davidson","Touring",100,26,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1396",1396,1396,"New",8614.28,2016,0,"green","Kawasaki","Standard",9.7,21748,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3128",3128,3128,"Used",13644.59,2013,17000,"white","Can-Am","Touring",100,342,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1156",1156,1156,"New",11877.68,2016,13,"white","Honda","Sport Bike",100,35,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"1946",1946,1946,"Used",5948.8,2014,7867,"red","Yamaha","Cruiser",100,505,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4733",4733,4733,"Used",7706.04,2012,100202,"blue","Harley-Davidson","Touring",8.6,1122,"other",FALSE,FALSE,1,FALSE,FALSE,FALSE,0.5,0.5
+"864",864,864,"Used",2747.14,1976,8829,"red","Yamaha","Other",8.7,986,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3805",3805,3805,"Used",8644.32,2012,8671,"black","Victory","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3310",3310,3310,"Used",8019.86,1967,8000,"black","Other","Other",100,242,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"4315",4315,4315,"Used",4838.15,2009,13035,"blue","Kawasaki","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"679",679,679,"Used",2467.84,2008,20478,"red","Harley-Davidson","Cruiser",5.8,341,"other",TRUE,FALSE,0,TRUE,FALSE,FALSE,0.4,0.625
+"1165",1165,1165,"Used",4285.42,2001,3858,"blue","Harley-Davidson","Other",100,901,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4996",4996,4996,"Used",25199.68,2015,13653,"black","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1952",1952,1952,"New",32338.68,2017,10,"other","Indian","Touring",100,253,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4685",4685,4685,"Used",4354.92,2006,13684,"other","Kawasaki","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2656",2656,2656,"Used",3512.4,2011,8750,"black","Kawasaki","Other",100,246,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,FALSE,0.433333333,1
+"3910",3910,3910,"Used",4169.51,2015,347,"grey","Honda","Gasoline",8.9,613,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1601",1601,1601,"Used",4057.49,2005,18985,"yellow","BMW","Dual-Purpose",100,16,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4948",4948,4948,"Used",20554.77,2016,4979,"black","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4441",4441,4441,"Used",19750.76,2008,30470,"black","Honda","Trike",6.4,992,"Private Seller",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2519",2519,2519,"Used",3786.91,2011,5,"white","Yamaha","Off-Road",100,415,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.136363636,0.454545455
+"3609",3609,3609,"New",30849.1,2017,1,"black","Other","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2999",2999,2999,"Used",13081.41,2013,50970,"black","Harley-Davidson","Gasoline",100,2746,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3676",3676,3676,"Used",28391.92,2011,10142,"red","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"5104",5104,5104,"New",27647.4,2017,0,"grey","Can-Am","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4117",4117,4117,"Used",9236.23,2011,23560,"black","Honda","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4958",4958,4958,"Used",24428.56,2015,31581,"orange","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1828",1828,1828,"Used",1379.08,2015,1707,"blue","Honda","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2746",2746,2746,"Used",3781.63,2007,9700,"other","Suzuki","Touring",100,1772,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.91,0.78
+"653",653,653,"Used",3939.93,2012,16900,"black","Harley-Davidson","Cruiser",6.6,372,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2406",2406,2406,"Used",3788.74,2008,18515,"black","Yamaha","Cruiser",100,289,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3405",3405,3405,"Used",5851.22,2014,30613,"black","Kawasaki","Touring",8.6,1122,"other",FALSE,FALSE,2,FALSE,FALSE,FALSE,0.4,0.433333333
+"3963",3963,3963,"Used",1523.84,2002,15000,"black","Suzuki","Sport Bike",100,232,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2854",2854,2854,"Used",4769.03,1987,59674,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5095",5095,5095,"New",21780,2017,7,"white","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3771",3771,3771,"Used",11456.33,2015,7022,"red","Ducati","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4703",4703,4703,"Used",5924.44,2008,27061,"black","Yamaha","Gasoline",100,1452,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"630",630,630,"Used",10334.1,2005,9800,"white","Harley-Davidson","Other",100,314,"Private Seller",TRUE,FALSE,2,FALSE,FALSE,FALSE,0,0
+"5204",5204,5204,"Used",8608.58,2011,20788,"green","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4872",4872,4872,"Used",11550,2017,0,"black","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3115",3115,3115,"Used",23975.6,2016,2806,"black","Harley-Davidson","Gasoline",100,14,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3775",3775,3775,"Used",23710.29,2017,3500,"black","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3515",3515,3515,"Used",7647.77,2016,136,"blue","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4668",4668,4668,"Used",10287.69,2012,16837,"white","Kawasaki","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"590",590,590,"Used",8013.59,2003,13800,"red","Harley-Davidson","Cruiser",100,195,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,1,1
+"2836",2836,2836,"Used",556.41,2013,14166,"black","Harley-Davidson","Gasoline",100,4,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2880",2880,2880,"Used",15272.04,2012,14710,"other","BMW","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1924",1924,1924,"Used",2070.73,2003,25000,"other","Yamaha","Cruiser",100,3,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"34",34,34,"Used",23420.87,2016,1500,"black","Harley-Davidson","Touring",100,33,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4300",4300,4300,"Used",3472.08,2012,10852,"black","Kawasaki","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"397",397,397,"Used",1447.49,2002,15172,"other","Harley-Davidson","Cruiser",100,291,"other",TRUE,FALSE,0,TRUE,FALSE,FALSE,1,0.75
+"3849",3849,3849,"Used",14601.82,2016,6000,"other","BMW","Touring",100,1162,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.53,0.715
+"1833",1833,1833,"Used",7282.47,2007,7732,"white","Harley-Davidson","Gasoline",100,4,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"904",904,904,"Used",14096.49,1976,3000,"blue","BMW","Touring",100,179,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.136363636,0.454545455
+"5251",5251,5251,"Used",6915,2012,0,"blue","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5105",5105,5105,"New",20350,2017,7,"white","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3580",3580,3580,"Used",2621.92,2005,11022,"other","Suzuki","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1869",1869,1869,"Used",17837.89,2015,362,"black","BMW","Cruiser",100,598,"other",FALSE,TRUE,3,FALSE,FALSE,FALSE,0.374545455,0.639818182
+"939",939,939,"Used",11631.95,2012,14835,"red","Harley-Davidson","Cruiser",100,2,"other",FALSE,TRUE,1,TRUE,FALSE,FALSE,1,1
+"1655",1655,1655,"Used",10357.68,2012,3758,"red","Yamaha","Sport Bike",100,22,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2402",2402,2402,"Used",2430.33,2005,30235,"black","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1972",1972,1972,"Used",4275.4,2002,11500,"black","Triumph","Touring",100,155,"Owner",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"243",243,243,"Used",1322.5,1975,10523,"red","Honda","Sport Bike",100,538,"Private Seller",TRUE,FALSE,2,TRUE,FALSE,FALSE,1,1
+"5089",5089,5089,"New",12855.8,2016,7,"white","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1567",1567,1567,"New",2501.4,2017,0,"red","Other","Sport Bike",100,2390,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"5079",5079,5079,"New",27647.4,2017,0,"grey","Can-Am","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2321",2321,2321,"Used",4855.88,2013,2009,"grey","Suzuki","Cruiser",100,1405,"other",FALSE,TRUE,4,FALSE,FALSE,FALSE,0.35,0.683333333
+"3766",3766,3766,"Used",18589.7,2012,20329,"black","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3074",3074,3074,"Used",13624.78,2012,4640,"other","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3505",3505,3505,"Used",5906.84,1998,36900,"black","Harley-Davidson","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3598",3598,3598,"New",25449.1,2017,1,"other","Indian","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1232",1232,1232,"Used",7788.59,2016,1800,"black","Other","Touring",100,213,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,TRUE,1,1
+"2007",2007,2007,"Used",1245.82,1976,999999,"white","Yamaha","Café Racer",9.7,3452,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0.4,0.55
+"110",110,110,"Used",10324.85,2002,13562,"red","Harley-Davidson","Cruiser",100,292,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"762",762,762,"Used",6481.94,1998,3000,"black","Harley-Davidson","Touring",100,619,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1646",1646,1646,"New",12801.68,2016,1,"green","Kawasaki","Touring",100,334,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2949",2949,2949,"Used",6641.27,2016,791,"other","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2749",2749,2749,"Used",189.58,2011,1544,"green","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4127",4127,4127,"Used",24111.67,2015,4119,"other","Kawasaki","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"694",694,694,"Used",3766.34,1971,26000,"other","BMW","Other",100,425,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2075",2075,2075,"Used",7037.81,2005,6058,"blue","Suzuki","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"932",932,932,"Used",6869.4,2001,16000,"blue","Harley-Davidson","Touring",100,1140,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"666",666,666,"Used",6476,2003,8522,"red","Harley-Davidson","Café Racer",100,53,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4055",4055,4055,"New",22438.68,2017,1,"black","Other","Sport Bike",100,2268,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"710",710,710,"Used",15811.21,2007,7000,"blue","Harley-Davidson","Touring",100,344,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.255681818,0.602272727
+"2179",2179,2179,"Used",18756.92,2016,176,"black","Ducati","Cruiser",100,695,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,TRUE,0.090909091,0.636363636
+"4400",4400,4400,"Used",7062.59,2012,2061,"yellow","Other","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2231",2231,2231,"Used",3724.39,2003,8097,"black","Kawasaki","Cruiser",100,1405,"other",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.188888889,0.866666667
+"2174",2174,2174,"Used",2530,2017,100,"green","Kawasaki","Off-Road",100,521,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1026",1026,1026,"Used",2493.35,1994,23500,"white","Yamaha","Sport Bike",100,765,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1440",1440,1440,"New",11122.08,2017,0,"other","Honda","Dual-Purpose",9.8,21591,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"522",522,522,"Used",1004.53,2011,4219,"black","Harley-Davidson","Touring",100,395,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"161",161,161,"Used",5452.93,2005,29956,"blue","Harley-Davidson","Cruiser",9.1,218,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"639",639,639,"Used",5256.14,2013,3591,"blue","Harley-Davidson","Gasoline",100,4,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"4122",4122,4122,"Used",7479.38,2008,9432,"yellow","Yamaha","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3791",3791,3791,"Used",30645.53,2016,17095,"other","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3960",3960,3960,"New",8708.68,2015,0,"red","Honda","Touring",100,1354,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2846",2846,2846,"Used",1213.38,1981,2301,"blue","Honda","Standard",100,598,"Private Seller",TRUE,FALSE,1,TRUE,FALSE,FALSE,0.464,0.61
+"539",539,539,"Used",7705.47,2007,11562,"grey","Harley-Davidson","Cruiser",100,1040,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.068181818,0.352272727
+"33",33,33,"Used",5186.88,2012,24742,"black","Harley-Davidson","Touring",100,10701,"other",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.6,0.95
+"1417",1417,1417,"Used",1915.77,1983,41054,"black","Kawasaki","Standard",100,93,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5163",5163,5163,"New",29148.9,2017,3,"orange","Other","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4856",4856,4856,"Used",27014.9,2017,0,"other","Other","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5242",5242,5242,"Used",4864.6,2008,11388,"black","Harley-Davidson","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"304",304,304,"Used",15581.53,2006,42054,"black","Harley-Davidson","Touring",96,210,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3491",3491,3491,"Used",8649.33,1981,1506,"red","Kawasaki","Standard",100,163,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"884",884,884,"Used",9139.76,2011,8816,"black","Harley-Davidson","Cruiser",100,74,"Private Seller",FALSE,TRUE,3,FALSE,FALSE,FALSE,0.5,0.65
+"2784",2784,2784,"Used",9715.11,1975,8013,"blue","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3147",3147,3147,"Used",12522.82,2009,38866,"other","Harley-Davidson","Gasoline",100,220,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"758",758,758,"Used",7416.29,2005,15404,"other","Harley-Davidson","Cruiser",100,311,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.312121212,0.501515152
+"2587",2587,2587,"Used",3962.26,2016,480,"red","Ducati","Naked",100,473,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3332",3332,3332,"Used",899.28,2015,5839,"red","Ducati","Gasoline",100,342,"other",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"842",842,842,"New",57948,2017,0,"blue","Honda","Touring",100,1645,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"342",342,342,"Used",36564.65,2015,7385,"other","Harley-Davidson","Touring",100,1016,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4586",4586,4586,"Used",19696.08,2015,4483,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"3198",3198,3198,"New",15443.68,2018,0,"orange","KTM","Off-Road",100,292,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"4938",4938,4938,"Used",2896.29,2007,32426,"grey","Suzuki","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2085",2085,2085,"Used",2424.33,2006,37291,"blue","Yamaha","Touring",100,139,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0.8,0.75
+"3533",3533,3533,"New",12399.1,2017,1,"black","Kawasaki","Sport Bike",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5049",5049,5049,"New",11440,2017,7,"black","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2637",2637,2637,"Used",36208.83,2014,5000,"white","Other","Touring",100,7,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3406",3406,3406,"Used",14733.86,2004,7364,"orange","Harley-Davidson","Gasoline",100,606,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1180",1180,1180,"Used",9001.75,2000,11100,"blue","Harley-Davidson","Standard",100,539,"Private Seller",TRUE,FALSE,0,FALSE,TRUE,FALSE,0,0
+"518",518,518,"Used",32230.92,1942,1000,"green","Harley-Davidson","Standard",100,17,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"633",633,633,"Used",4928.07,1976,36067,"blue","BMW","Touring",100,58,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4459",4459,4459,"Used",11842.08,2014,5958,"other","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4554",4554,4554,"Used",32375.66,2016,2565,"red","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1144",1144,1144,"Used",4255.99,1998,40195,"black","Honda","Touring",100,68,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4515",4515,4515,"New",16500,2017,0,"red","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4561",4561,4561,"Used",16493.62,2015,12426,"other","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1431",1431,1431,"Used",4133.95,2015,450,"black","Kawasaki","Sport Bike",9.1,307,"Private Seller",TRUE,FALSE,0,TRUE,FALSE,TRUE,0,0
+"4325",4325,4325,"Used",17033.6,2011,4463,"green","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1512",1512,1512,"Used",9214.13,2008,2081,"black","BMW","Touring",100,253,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.170454545,0.734848485
+"5",5,5,"Used",18531.79,2010,5548,"red","Harley-Davidson","Touring",9.8,6229,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2750",2750,2750,"Used",8687.4,2014,4723,"other","BMW","Standard",100,92,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3877",3877,3877,"Used",2347.44,2014,20,"red","Honda","Dual-Purpose",5.3,9946,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0.375,0.75
+"2010",2010,2010,"Used",7320.06,2006,4000,"blue","Suzuki","Sport Bike",100,7,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3532",3532,3532,"New",13659.1,2017,1,"red","Kawasaki","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4846",4846,4846,"Used",20357.86,2013,14825,"black","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"50",50,50,"Used",13025.95,2000,48505,"red","Harley-Davidson","Trike",100,1645,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,-0.1625,0.975
+"3192",3192,3192,"Used",5941.24,2004,3928,"black","Other","Naked",100,92,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1065",1065,1065,"Used",7887.13,2001,25003,"black","Harley-Davidson","Cruiser",100,297819,"other",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.404166667,0.595833333
+"2417",2417,2417,"Used",23408.21,2017,200,"orange","Other","Standard",100,47,"other",FALSE,TRUE,0,TRUE,FALSE,FALSE,0.416666667,0.816666667
+"3682",3682,3682,"New",10417.1,2015,1,"other","Yamaha","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3524",3524,3524,"Used",5097.69,2005,30658,"other","Honda","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2848",2848,2848,"Used",20784.15,2015,4604,"black","Harley-Davidson","Standard",100,338,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1493",1493,1493,"Used",5403.24,2013,34100,"white","BMW","Dual-Purpose",100,497,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.45,0.6
+"764",764,764,"Used",4109.07,2006,2192,"black","Harley-Davidson","Standard",8.6,621,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2142",2142,2142,"Used",4674.61,2011,18752,"red","Suzuki","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2067",2067,2067,"Used",834.99,2006,38218,"blue","Yamaha","Cruiser",100,22,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4569",4569,4569,"Used",17846.19,2015,5414,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"732",732,732,"Used",10870.99,2006,44406,"black","Harley-Davidson","Touring",100,20,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1332",1332,1332,"Used",12514.24,1991,4342,"black","Harley-Davidson","Other",100,193,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1968",1968,1968,"New",7521.36,2017,0,"black","Kawasaki","Dual-Purpose",100,903,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"789",789,789,"Used",8248,2015,71,"black","Harley-Davidson","Cruiser",100,263,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4806",4806,4806,"New",18148.9,2017,7,"grey","Ural","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4524",4524,4524,"Used",10728.99,2015,1839,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"1436",1436,1436,"New",11613.68,2016,1,"grey","Kawasaki","Sport Bike",100,334,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"73",73,73,"Used",8681.87,2008,20000,"black","Harley-Davidson","Touring",100,163,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2786",2786,2786,"Used",7925.89,2007,4495,"grey","Other","Touring",100,53,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2538",2538,2538,"Used",7270.74,1977,9764,"other","Triumph","Other",100,1059,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0,0
+"1458",1458,1458,"Used",1560.47,2007,16363,"grey","Suzuki","Touring",100,96,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3373",3373,3373,"Used",21861.72,2016,10182,"black","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"618",618,618,"Used",11983.99,2008,18047,"red","Harley-Davidson","Touring",100,43,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"958",958,958,"Used",12622.09,2011,6000,"black","Harley-Davidson","Cruiser",100,619,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.5,0.5
+"1357",1357,1357,"Used",3060.1,1996,55400,"blue","BMW","Touring",100,38,"Private Seller",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.91,0.78
+"2278",2278,2278,"New",5336.28,2018,0,"blue","Yamaha","Off-Road",9.2,5605,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3488",3488,3488,"Used",8705.88,2013,4926,"black","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1363",1363,1363,"New",19254.84,2017,1,"red","Kawasaki","Touring",100,876,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"276",276,276,"Used",2583.38,1984,15560,"black","Kawasaki","Sport Bike",100,248,"Private Seller",TRUE,FALSE,2,FALSE,FALSE,FALSE,0.5,0.65
+"1514",1514,1514,"Used",45873.48,2015,348,"black","Harley-Davidson","Other",100,238,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"671",671,671,"Used",781.47,2004,1413,"red","Honda","Other",100,251,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2313",2313,2313,"Used",1054.84,2004,45054,"black","BMW","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3855",3855,3855,"Used",4266.04,2001,24000,"green","Harley-Davidson","Cruiser",100,1011,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3270",3270,3270,"Used",3772.63,2006,254,"red","Victory","Sport Bike",100,6,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5239",5239,5239,"Used",5881.38,2016,23440,"grey","Kawasaki","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4782",4782,4782,"New",18148.9,2017,0,"other","Ural","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3751",3751,3751,"Used",7582.45,2003,6941,"yellow","Other","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3180",3180,3180,"Used",13601.31,2012,38905,"other","BMW","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4402",4402,4402,"Used",6464.9,2006,73119,"other","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3172",3172,3172,"New",24595.88,2016,36,"black","Ural","Dual-Purpose",100,274,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3267",3267,3267,"Used",16320.04,2016,516,"black","Harley-Davidson","Cruiser",100,436,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2953",2953,2953,"Used",5422.62,1968,8500,"black","Other","Other",100,484,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4533",4533,4533,"Used",23004.16,2016,10655,"blue","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3341",3341,3341,"New",17593.5,2016,0,"white","Ducati","Gasoline",100,246,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2363",2363,2363,"Used",1190.58,2004,31000,"grey","Kawasaki","Cruiser",100,36,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"899",899,899,"Used",8681.78,2003,7876,"other","Harley-Davidson","Cruiser",100,3287,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.75,0.75
+"1188",1188,1188,"Used",9387.83,2004,12700,"black","Harley-Davidson","Touring",100,2,"Owner",FALSE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"1403",1403,1403,"Used",8354.87,2015,1000,"black","Indian","Cruiser",100,168,"other",TRUE,TRUE,1,TRUE,FALSE,TRUE,-0.027777778,0.277777778
+"1313",1313,1313,"Used",11847.26,2001,64500,"red","Honda","Trike",100,107,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4310",4310,4310,"Used",2953.22,1991,19489,"black","Yamaha","Standard",4.7,12409,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3974",3974,3974,"Used",4127.02,2007,24291,"red","Suzuki","Cruiser",9.1,218,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"831",831,831,"Used",44892.5,2014,1,"other","Harley-Davidson","Touring",90,8,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"373",373,373,"Used",1358.2,2002,5100,"blue","Harley-Davidson","Cruiser",100,32,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,1,1
+"3418",3418,3418,"Used",1743.87,2009,20185,"green","Kawasaki","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2367",2367,2367,"Used",5316.78,2007,40213,"green","Harley-Davidson","Standard",100,1342,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2589",2589,2589,"Used",10097.82,2011,3501,"black","Suzuki","Sport Bike",100,297821,"other",FALSE,TRUE,3,FALSE,FALSE,FALSE,0.278257576,0.491136364
+"4584",4584,4584,"Used",15227.18,2002,6515,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3553",3553,3553,"Used",16395.62,2016,3096,"other","Harley-Davidson","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1616",1616,1616,"Used",8610.84,2004,4065,"black","Honda","Touring",100,19,"Owner",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.136363636,0.454545455
+"5000",5000,5000,"New",14575,2017,0,"green","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3702",3702,3702,"New",23666.5,2017,7,"black","BMW","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3899",3899,3899,"Used",13109.72,2016,11248,"white","BMW","Touring",100,1162,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.43,0.49
+"4479",4479,4479,"Used",9786.15,2009,7369,"other","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2057",2057,2057,"Used",19709.05,2016,3025,"other","Harley-Davidson","Gasoline",100,4,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3998",3998,3998,"Used",13835.47,2011,17742,"red","Kawasaki","Standard",86,41,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.8,0.75
+"2078",2078,2078,"Used",11988.89,2010,16500,"orange","BMW","Touring",100,25,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3156",3156,3156,"New",25530.44,2016,36,"other","Ural","Dual-Purpose",100,274,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"2633",2633,2633,"Used",6490.78,2010,7878,"red","Triumph","Naked",100,12,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"70",70,70,"Used",7038.42,2007,9490,"black","Harley-Davidson","Standard",100,50,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4309",4309,4309,"New",23116.5,2017,0,"white","BMW","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2665",2665,2665,"Used",5671.32,2009,6425,"blue","Yamaha","Touring",100,378,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4336",4336,4336,"Used",10900.18,2014,6853,"green","Kawasaki","Standard",100,163,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2790",2790,2790,"Used",5099.44,2006,31447,"grey","Suzuki","Cruiser",100,363,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2263",2263,2263,"Used",2791.41,2001,9500,"blue","Suzuki","Sport Bike",100,67,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4529",4529,4529,"Used",9791.76,2012,16548,"red","Kawasaki","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4873",4873,4873,"Used",14786.62,2016,415,"white","Triumph","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2227",2227,2227,"Used",2550.39,2013,3500,"black","Suzuki","Standard",100,229,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5022",5022,5022,"Used",11000.96,2011,7288,"other","Yamaha","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2889",2889,2889,"Used",3162.21,2002,48000,"blue","Triumph","Sport Bike",100,76,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"861",861,861,"Used",10884.38,2004,4500,"black","Harley-Davidson","Standard",100,18,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1218",1218,1218,"New",16074.8,2017,4,"other","BMW","Touring",9.2,1742,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3731",3731,3731,"Used",21642.71,2016,3069,"other","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4343",4343,4343,"Used",2984.15,2013,2175,"other","Honda","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3981",3981,3981,"Used",11956.16,2015,1652,"black","Yamaha","Standard",86,41,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.136363636,0.454545455
+"955",955,955,"Used",10883,2010,24,"red","Honda","Off-Road",100,619,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3734",3734,3734,"Used",25752.23,2016,12928,"black","Harley-Davidson","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1460",1460,1460,"New",29698.68,2017,2,"blue","Other","Other",100,35,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"951",951,951,"Used",2348.16,1972,8685,"blue","Suzuki","Standard",100,625,"Private Seller",TRUE,FALSE,2,FALSE,FALSE,FALSE,0.303787879,0.701515152
+"1962",1962,1962,"Used",1739.18,1970,2114,"green","Honda","Dual-Purpose",100,155,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.6875,0.875
+"1058",1058,1058,"Used",9427.03,2009,31152,"black","Harley-Davidson","Cruiser",100,2,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.63,0.89
+"846",846,846,"Used",10884.38,2004,4500,"black","Harley-Davidson","Standard",100,18,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3181",3181,3181,"Used",20808.14,2015,3776,"black","Harley-Davidson","Gasoline",100,220,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"48",48,48,"Used",14406.89,2009,16500,"black","Harley-Davidson","Touring",100,63,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3848",3848,3848,"Used",20565.82,2014,13337,"grey","Harley-Davidson","Cruiser",100,179,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1670",1670,1670,"Used",4789.8,1991,50034,"white","Honda","Sport Bike",100,476,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"749",749,749,"Used",10870.45,2008,69933,"grey","Honda","Touring",100,9,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"467",467,467,"Used",7521.89,2004,16500,"white","Harley-Davidson","Touring",100,91,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"281",281,281,"Used",16371.75,2006,36865,"white","Harley-Davidson","Other",100,347,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3992",3992,3992,"Used",8475.58,2017,140,"blue","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1502",1502,1502,"Used",1677.06,1996,33338,"red","Kawasaki","Touring",100,660,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.058888889,0.57
+"148",148,148,"Used",29028.66,2007,25183,"other","Harley-Davidson","Touring",100,239,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"5025",5025,5025,"Used",4314.38,2013,2104,"black","Other","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3645",3645,3645,"Used",13586.83,2010,12292,"black","Harley-Davidson","Gasoline",100,532,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4079",4079,4079,"Used",30154.28,2014,4545,"black","Harley-Davidson","Gasoline",100,220,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1513",1513,1513,"New",6632.74,2017,0,"blue","Yamaha","Off-Road",9.8,2855,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"1245",1245,1245,"Used",2601.69,2004,3136,"orange","Honda","Cruiser",100,648,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1856",1856,1856,"Used",17869.5,2004,7706,"blue","Honda","Cruiser",100,590,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2423",2423,2423,"Used",2706.63,2013,8407,"black","Honda","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2969",2969,2969,"Used",32895.99,2003,2000,"grey","Other","Other",100,223,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3408",3408,3408,"New",19150.1,2018,1,"black","Indian","Cruiser",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5155",5155,5155,"New",31238.9,2017,3,"green","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4451",4451,4451,"Used",27404.31,2014,7040,"other","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2981",2981,2981,"New",80839.24,2017,1271,"yellow","Other","Sport Bike",100,122,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3196",3196,3196,"New",17.79,2017,0,"grey","KTM","Touring",100,13684,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2703",2703,2703,"Used",20789.39,2015,4726,"black","BMW","Standard",100,92,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4772",4772,4772,"Used",5419.65,2016,1458,"red","Kawasaki","Gasoline",100,1452,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3944",3944,3944,"Used",1205.65,2007,5624,"blue","Yamaha","Cruiser",8.4,769,"other",TRUE,FALSE,0,FALSE,TRUE,FALSE,0,0
+"1876",1876,1876,"Used",2366.44,1947,0,"blue","Other","Scooter",100,1098,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.91,0.78
+"2364",2364,2364,"Used",7488.65,2014,13837,"other","Yamaha","Standard",100,1342,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2550",2550,2550,"Used",17184.08,2016,3171,"blue","Harley-Davidson","Gasoline",100,532,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2826",2826,2826,"Used",5898.27,2008,23686,"other","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2460",2460,2460,"Used",31137.58,2014,4113,"blue","Honda","Touring",100,179,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1347",1347,1347,"Used",7929.47,2008,3841,"black","Harley-Davidson","Cruiser",100,3,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"486",486,486,"Used",8270.92,2012,7204,"black","Harley-Davidson","Touring",8.8,101,"other",FALSE,TRUE,2,FALSE,FALSE,FALSE,0.35,0.65
+"4692",4692,4692,"Used",5421.01,2015,1618,"black","Harley-Davidson","Gasoline",100,28,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4798",4798,4798,"Used",3752.84,2014,5250,"other","Honda","Gasoline",100,1452,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1038",1038,1038,"Used",16218.8,2017,2,"other","BMW","Touring",9.2,1742,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2777",2777,2777,"Used",14071.27,2011,31030,"orange","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1161",1161,1161,"Used",3611.31,2006,43000,"other","Harley-Davidson","Cruiser",100,175,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2501",2501,2501,"Used",5980.49,2012,384,"grey","Kawasaki","Cruiser",100,59,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4041",4041,4041,"Used",20203.84,2014,4994,"red","Harley-Davidson","Gasoline",100,501,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1040",1040,1040,"Used",14168.15,2005,48300,"black","Harley-Davidson","Cruiser",100,272,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3764",3764,3764,"Used",17588.97,2005,20000,"white","Harley-Davidson","Standard",6.4,992,"Private Seller",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4001",4001,4001,"Used",10076.18,2016,2451,"red","Indian","Cruiser",86,41,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,1,1
+"1766",1766,1766,"Used",7966.42,2015,3491,"blue","Harley-Davidson","Gasoline",100,4,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"3681",3681,3681,"Used",17041.03,2015,1877,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2759",2759,2759,"Used",6153.41,2003,7040,"other","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3953",3953,3953,"Used",811.41,1974,10500,"other","Suzuki","Standard",100,246,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1867",1867,1867,"Used",15283.64,1990,43000,"white","Honda","Touring",100,4,"Owner",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.183333333,0.388461538
+"3479",3479,3479,"Used",18599.47,2015,13945,"red","Other","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5134",5134,5134,"Used",36297.9,2016,10,"black","Indian","Gasoline",100,312,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1329",1329,1329,"Used",10122.51,1982,12282,"red","Honda","Naked",100,168,"Owner",TRUE,TRUE,0,FALSE,FALSE,FALSE,-0.125,0.375
+"2372",2372,2372,"Used",6820.72,2015,1634,"grey","Yamaha","Dual-Purpose",100,31,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.366666667,0.7
+"499",499,499,"Used",2212,1974,1,"red","Harley-Davidson","Cruiser",100,580,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2234",2234,2234,"Used",1472.94,1975,11000,"green","Ducati","Touring",100,14,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2411",2411,2411,"New",6595.68,2014,5,"black","Suzuki","Cruiser",100,334,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3957",3957,3957,"Used",1146.29,1973,5275,"other","Suzuki","Dual-Purpose",100,972,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2369",2369,2369,"New",1609.06,2017,1,"green","Other","Dual-Purpose",5.8,582,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2154",2154,2154,"Used",34756.38,1958,56158,"red","Harley-Davidson","Touring",90,214,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.42125,0.4825
+"2565",2565,2565,"Used",4976.97,2016,3304,"black","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2306",2306,2306,"Used",13071.59,2007,17000,"blue","Suzuki","Sport Bike",100,14,"Owner",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3240",3240,3240,"New",24548.04,2017,36,"green","Ural","Dual-Purpose",100,274,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3875",3875,3875,"Used",1427.12,1976,999999,"yellow","Yamaha","Off-Road",9.9,42714,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1516",1516,1516,"Used",1404.33,1987,11387,"white","Honda","Dual-Purpose",8.5,389,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.046428571,0.533928571
+"56",56,56,"Used",13077.5,2008,34530,"red","Harley-Davidson","Other",100,40,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0,0
+"1348",1348,1348,"Used",16433.05,2016,992,"black","Harley-Davidson","Touring",100,846,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,TRUE,1,1
+"4578",4578,4578,"Used",22075.44,2015,3204,"red","Other","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"3017",3017,3017,"Used",2560.65,2010,10780,"black","Triumph","Naked",100,27,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2895",2895,2895,"Used",12003.96,2014,3373,"black","Harley-Davidson","Gasoline",100,4,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4911",4911,4911,"Used",14211.13,2014,3558,"other","Ducati","Standard",100,1978,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3274",3274,3274,"Used",12717.52,2010,2,"red","Victory","Cruiser",100,66,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.170454545,0.734848485
+"4440",4440,4440,"Used",11967.57,2005,45827,"white","Harley-Davidson","Gasoline",100,152,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2959",2959,2959,"Used",13.07,2001,27219,"other","Other","Touring",100,146,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"497",497,497,"Used",5042.17,2010,2875,"blue","Other","Other",9.6,927,"Private Seller",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.5,1
+"2968",2968,2968,"Used",12866.18,2017,2231,"black","Harley-Davidson","Standard",9.8,1897,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4072",4072,4072,"New",4989,2016,0,"black","Can-Am","Gasoline",50,335,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"5028",5028,5028,"New",28374.5,2017,7,"red","Ducati","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1243",1243,1243,"Used",12070.57,2013,4029,"black","Kawasaki","Touring",100,129,"other",FALSE,TRUE,1,FALSE,FALSE,TRUE,-0.046875,0.525
+"450",450,450,"Used",12240.73,2005,61500,"black","Harley-Davidson","Touring",100,87,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2896",2896,2896,"Used",20845.02,2016,200,"blue","Harley-Davidson","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"731",731,731,"New",4307.54,2015,2,"other","Honda","Touring",9.9,32557,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"1171",1171,1171,"New",10996.9,2015,0,"green","Kawasaki","Sport Bike",100,1645,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"4729",4729,4729,"Used",18278.17,2013,39076,"other","Harley-Davidson","Gasoline",50,397,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"994",994,994,"Used",10880.81,2010,37000,"red","Harley-Davidson","Touring",100,281,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1744",1744,1744,"Used",1109.26,1999,34000,"black","Yamaha","Cruiser",100,685,"Owner",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2034",2034,2034,"Used",23630.12,2016,2204,"blue","Harley-Davidson","Touring",100,1342,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0.342857143,0.617857143
+"2831",2831,2831,"Used",559.73,2015,15169,"black","Harley-Davidson","Gasoline",100,4,"other",TRUE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"2253",2253,2253,"Used",6823.43,2011,12800,"black","Suzuki","Sport Bike",100,77,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1586",1586,1586,"Used",4383.5,2006,0,"other","Honda","Gasoline",100,305,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1328",1328,1328,"Used",4023.6,2005,28000,"yellow","BMW","Touring",99,1135,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3189",3189,3189,"Used",3390.74,1970,8320,"red","Other","Café Racer",100,5,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3894",3894,3894,"Used",2997.49,2007,29241,"black","Harley-Davidson","Touring",7.1,1055,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4830",4830,4830,"New",12321,2018,0,"black","Triumph","Gasoline",100,161,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"697",697,697,"Used",7038.07,2008,12000,"black","Harley-Davidson","Touring",100,124,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1847",1847,1847,"New",5369.72,2003,27655,"black","Honda","Sport Bike",100,621,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1785",1785,1785,"Used",2744.07,2010,46308,"grey","BMW","Standard",100,1978,"other",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"3165",3165,3165,"Used",4607.09,2010,7400,"blue","Can-Am","Sport Bike",9.9,3097,"other",TRUE,FALSE,1,FALSE,FALSE,FALSE,0.4,0.525
+"3135",3135,3135,"Used",12019.29,2014,1756,"grey","Other","Naked",100,430,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1290",1290,1290,"New",11151.34,2014,1,"other","Yamaha","Cruiser",9.2,5605,"other",FALSE,TRUE,0,FALSE,FALSE,TRUE,0,0
+"3664",3664,3664,"New",19282.1,2015,1,"grey","Yamaha","Standard",80,375,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"1008",1008,1008,"Used",25533.25,2016,11670,"red","Harley-Davidson","Standard",100,635,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"3466",3466,3466,"Used",26265.79,2013,14546,"red","Harley-Davidson","Gasoline",100,4,"other",FALSE,FALSE,0,FALSE,FALSE,TRUE,0,0
+"327",327,327,"Used",9957.82,2006,3850,"blue","Harley-Davidson","Touring",100,204,"Private Seller",FALSE,TRUE,1,TRUE,FALSE,FALSE,0.170454545,0.454545455
+"458",458,458,"Used",12.88,2004,25000,"white","Harley-Davidson","Touring",100,55,"Private Seller",TRUE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"2410",2410,2410,"Used",2287.42,2001,23345,"black","Other","Other",100,176,"Private Seller",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"1788",1788,1788,"Used",1422.84,2003,7450,"blue","Kawasaki","Sport Bike",100,25,"Private Seller",TRUE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"4774",4774,4774,"Used",20349,2016,0,"other","Other","Gasoline",100,60,"other",FALSE,FALSE,0,FALSE,FALSE,FALSE,0,0
+"2027",2027,2027,"Used",2607.86,1984,36550,"other","Honda","Cruiser",100,259,"Private Seller",TRUE,TRUE,1,FALSE,FALSE,FALSE,0.805,0.69
+"2285",2285,2285,"Used",7019.08,2005,14646,"red","Harley-Davidson","Gasoline",100,501,"other",FALSE,TRUE,0,FALSE,FALSE,FALSE,0,0
+"196",196,196,"Used",5256.35,2006,39701,"blue","Harley-Davidson","Touring",9.8,3280,"other",FALSE,TRUE,1,FALSE,FALSE,FALSE,0.354166667,0.620833333
+"2277",2277,2277,"Used",1897.2,1939,0,"red","Other","Scooter",100,1098,"Private Seller",TRUE,FALSE,1,FALSE,FALSE,FALSE,1,1
