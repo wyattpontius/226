@@ -1,0 +1,119 @@
+---
+title: "LM_Models"
+output: word_document
+---
+
+```{r setup}
+#import train and validate and get ride of X1 column
+library(ggplot2)
+library(plyr)
+setwd("~/Documents/226Project")
+train = read.csv(file = "final_train_data.csv")
+validate = read.csv(file = "final_validation_data.csv")
+train = train[,-1]
+validate = validate[,-1]
+
+```
+
+```{r}
+#construct stepwise model
+fm.lower = lm(data = train, Price ~ 1)
+fm.upper = lm(data = train, Price ~ . + I(Model_Year^2) + I(Mileage^2))
+stepped = step(fm.lower,
+     scope = list(lower = fm.lower,
+                  upper = fm.upper),
+     direction = "forward")
+
+stepwise_formula = formula(stepped)
+```
+
+```{r}
+#stepwise results
+library(modelr)
+stepwise_formula
+stepwise_model = lm(stepwise_formula, train)
+summary(stepwise_model)
+rmse(true_model, train)
+rmse(true_model, validate)
+```
+```{r}
+#simple LM
+linear_model = lm(data = train, Price ~ . + I(Model_Year^2) + I(Mileage^2))
+rmse(linear_model, train)
+rmse(linear_model, validate)
+```
+
+```{r}
+#lasso and ridge for LM
+library(glmnet)
+total = rbind(train, validate)
+
+X = model.matrix(Price ~ 0 + ., total)
+Y = total$Price
+X.train = X[1:nrow(train),]
+X.validate = X[nrow(train):nrow(total),]
+Y.train = X[1:nrow(train),]
+Y.validate = X[nrow(train):nrow(total),]
+length(Y.train)
+length(X.train)
+
+# set lambda sequence to use for lasso and ridge
+lambdas = 10^seq(-2,5,0.1)
+
+# ridge regression
+fm.ridge = glmnet(X.train, Y.train, alpha = 0, lambda = lambdas, thresh = 1e-12)
+
+# test error of ridge regression at each lambda
+ridge.test = adply(lambdas, 1, function(l) {
+  return( data.frame(l, mean( (Y.test - predict(fm.ridge, s = l, newx = X.test))^2 ), "Ridge" ))
+}, .id = NULL)
+colnames(ridge.test) = c("lambda", "TestErr", "Model")
+
+#lasso
+fm.lasso = glmnet(X.train, Y.train, alpha = 1, lambda = lambdas, thresh = 1e-12)
+
+# test error of lasso at each lambda
+lasso.test = adply(lambdas, 1, function(l) {
+  return( data.frame(l, mean( (Y.test - predict(fm.lasso, s = l, newx = X.test))^2 ), "Lasso" ))
+}, .id = NULL)
+colnames(lasso.test) = c("lambda", "TestErr", "Model")
+
+# combine test error of each model into one data frame
+test.df = rbind(ridge.test, lasso.test)
+test.df$Model = factor(test.df$Model)
+
+# plot test error
+ggplot(data = test.df, aes(x = lambda, y = TestErr, color = Model)) + 
+  geom_line()  + scale_x_log10() + ylab("Test set error")
+
+# What is the minimum test error for ridge and lasso?
+ridge.min.err = min(ridge.test$TestErr)
+lasso.min.err = min(lasso.test$TestErr)
+
+# Which lambda achieves the minimum test error for ridge and lasso?
+ridge.min.l = lambdas[which.min(ridge.test$TestErr)]
+lasso.min.l = lambdas[which.min(lasso.test$TestErr)]
+
+# What are the coefficients at the test error minimizing models?
+cbind(predict(fm.lasso, s = lasso.min.l, type = "coefficients"), 
+predict(fm.ridge, s = ridge.min.l, type = "coefficients"))
+```
+```{r}
+#SVM
+library("e1071")
+data = train[1:1000,]
+#tune gamma
+tuned_parameters <- tune.svm(Condition ~ ., data = data, gamma = 10^(-5:-1), cost = 10^(-3:1))
+summary(tuned_parameters)
+
+#train prediction
+svm_model <- svm(Condition ~., data = train,  kernel = "radial", gamma = 0.02, cost = 1)
+table(predict(svm_model), train$Condition, dnn=c("Prediction", "Actual"))
+
+#validation prediction
+svm_model <- svm(Condition ~., data = validate,  kernel = "radial", gamma = 0.02, cost = 1)
+table(predict(svm_model), validate$Condition, dnn=c("Prediction", "Actual"))   
+```
+
+
+
