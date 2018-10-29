@@ -1,0 +1,23 @@
+---
+title: "Filter Feature Selection"
+author: "Philip Clark + Wyatt Pontius"
+output: html_document
+---
+
+```{r}
+library(mlbench)
+library(caret)
+library(readr)
+```
+
+```{r}
+data <- read.csv("variable_selection_data.csv", header = TRUE)
+```
+
+```{r}
+correlationMatrix <- cor(data[,2:16])
+highlyCorrelated <- findCorrelation(correlationMatrix, cutoff=0.5)
+print(highlyCorrelated)
+```
+
+The only two highly correlated variables are the NLP features. They are only highly correlated because they are both 0 for all of the "NA" description cycles and positive for all the non-"NA" description cycles. As a result, this filtering does not provide any insight into removal of irrelevant variables in this preprocessing stage.
