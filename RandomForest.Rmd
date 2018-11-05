@@ -1,0 +1,68 @@
+---
+title: "Random Forest"
+author: "Philip Clark + Wyatt Pontius"
+---
+
+```{r}
+library(randomForest)
+library(ggplot2)
+```
+
+```{r}
+setwd("C:/Users/Wyatt/Documents/Year 3 - Autumn/MS&E 226/Project/Data/")
+train_data <- read.csv(file = "final_train_data.csv")
+test_data <- read.csv(file = "final_test_data.csv")
+train_data[1] <- NULL
+test_data[1] <- NULL
+dependent_variable_train <- train_data[,2]
+dependent_variable_test <- test_data[,2]
+independent_variable_train <- train_data[,-2]
+independent_variable_test <- test_data[,-2]
+```
+
+```{r}
+tuneRF(independent_variable_train, dependent_variable_train)
+```
+
+Best mtry fluctuates around the default, so we'll run the model using the default mtry value (which is the number of covariates divided by 3).
+
+```{r}
+price.rf <- randomForest(Price ~ ., data = train_data, ntree= 1000, importance = TRUE)
+```
+
+```{r}
+print(price.rf)
+varUsed(price.rf, by.tree = FALSE, count = TRUE)
+```
+
+```{r}
+importance(price.rf)
+```
+
+Variables with higher values of %IncMSE are more important in the model. The most important covariates according to thise model are Make, Model_Year, Auction, and Type.
+
+```{r}
+plot(price.rf)
+```
+
+```{r}
+price.predicted <- predict(price.rf, independent_variable_test, type="response")
+```
+
+```{r}
+price_error <- (dependent_variable_test - price.predicted)
+price_error_df <- data.frame(price_error)
+```
+
+```{r}
+rmse <- function(error) {
+  sqrt(mean(error^2))
+}
+RMSE <- rmse(price_error)
+```
+
+Model RMSE is 5623.70.
+
+```{r}
+ggplot(price_error_df, aes(x = price_error)) + geom_histogram() + geom_vline(aes(xintercept = mean(price_error)), color = "red", linetype = "dashed", size = 1)
+```
