@@ -1,0 +1,211 @@
+---
+title: "Classification_Models"
+output: word_document
+---
+
+```{r}
+#import train and validate and get ride of X1 column
+library(ggplot2)
+library(dplyr)
+library(plyr)
+setwd("~/Documents/226Project")
+train = read.csv(file = "final_train_data.csv")
+validate = read.csv(file = "final_validation_data.csv")
+train = train[,-1]
+validate = validate[,-1]
+
+train
+```
+
+```{r}
+#SVM
+cols <- sapply(train, is.logical)
+train[,cols] <- lapply(train[,cols], as.numeric)
+train
+
+cols <- sapply(validate, is.logical)
+validate[,cols] <- lapply(validate[,cols], as.numeric)
+validate
+
+library("e1071")
+data = train[1:1000,]
+#tune gamma
+tuned_parameters <- tune.svm(has_warranty ~ ., data = data, gamma = 10^(-5:-1), cost = 10^(-3:1))
+summary(tuned_parameters)
+
+#train prediction
+svm_model <- svm(has_warranty ~., data = train,  kernel = "radial", gamma = 0.02, cost = 1)
+table(predict(svm_model), train$has_warranty, dnn=c("Prediction", "Actual"))
+
+#validation prediction
+svm_model <- svm(New ~., data = validate,  kernel = "radial", gamma = 0.02, cost = 1)
+table(predict(svm_model), validate$has_warranty, dnn=c("Prediction", "Actual"))   
+```
+
+```{r}
+#function to standardize numeric cols
+
+stdize = function(df) {
+  continuous_covariates = c("Model_Year", "Mileage", "Feedback_Perc", "N_Reviews", "review_polarity", "review_positivity")
+  for(i in 1:length(continuous_covariates)) {
+    x_bar = mean(df[,continuous_covariates[[i]]])
+    scale = sd(df[,continuous_covariates[[i]]])
+    df[,continuous_covariates[[i]]] = (df[,continuous_covariates[[i]]]-x_bar)/scale
+  }
+  return(df)
+}
+#test out function
+df = stdize(train)
+df
+```
+
+#normal logistic regression
+```{r}
+model_logistic = glm(has_warranty ~ . + I(Model_Year^2) + I(Mileage^2), train, family = 'binomial')
+
+summary(model_logistic)
+
+#generate model predictions for train data
+logistic_train_data = train %>%
+  mutate(
+    prediction = predict(model_logistic, data = train, type = 'response'),
+    pred_new = ifelse(prediction >= 0.5, TRUE, FALSE)
+    )
+
+#compute accuracy for train data
+accuracy_train = logistic_train_data %>%
+  summarize(accuracy_train = mean(has_warranty == pred_new))
+accuracy_train
+
+#calculates precision (proportion of 'positive' predictions that are 'true') for train data
+precision_train = logistic_train_data %>%
+  filter(pred_new == TRUE) %>%
+  summarize(precision_train = mean(has_warranty == TRUE))
+precision_train
+
+#calculates recall (proportion of all 'true' instances that are 'positive') for train data
+recall_train = logistic_train_data %>%
+  filter(has_warranty == TRUE) %>%
+  summarize(recall_train = mean(pred_new == TRUE))
+recall_train
+
+#calcualtes auc for train data
+pred = prediction(logistic_train_data$prediction, logistic_train_data$New)
+train_auc = performance(pred, "auc")
+train_auc = unlist(slot(train_auc, "y.values"))
+train_auc
+```
+
+#stepwise logistic model
+```{r}
+#construct stepwise model
+total.logistic.model = glm(data = train, has_warranty ~ . + I(Model_Year^2) + I(Mileage^2), family = 'binomial')
+step.logistic.model = step(total.logistic.model, direction = "backward")
+step.logistic.model$anova
+
+#best formula: has_warranty ~ Price + Model_Year + Make + Type + Feedback_Perc + N_Reviews + Seller_Status + Auction + Buy_Now + uses_excl + review_polarity + New + I(Model_Year^2)
+```
+
+```{r}
+#generate model predictions for validation data
+logistic_validation_data = validate %>%
+  mutate(
+    prediction = predict(model_logistic, newdata = validate, type = 'response'),
+    pred_new = ifelse(prediction >= 0.5, TRUE, FALSE)
+    )
+
+#compute accuracy for validation data
+accuracy_validation = logistic_validation_data %>%
+  summarize(accuracy_validation = mean(has_warranty == pred_new))
+accuracy_validation
+
+#calculates precision (proportion of 'positive' predictions that are 'true') for validation data
+precision_validation = logistic_validation_data %>%
+  filter(pred_new == TRUE) %>%
+  summarize(precision_validation = mean(has_warranty == TRUE))
+precision_validation
+
+#calculates recall (proportion of all 'true' instances that are 'positive') for validation data
+recall_validation = logistic_validation_data %>%
+  filter(has_warranty == TRUE) %>%
+  summarize(recall_validation = mean(pred_new == TRUE))
+recall_validation
+
+#calcualtes auc for validation data
+pred = prediction(logistic_validation_data$prediction, logistic_validation_data$New)
+validation_auc = performance(pred, "auc")
+validation_auc = unlist(slot(validation_auc, "y.values"))
+validation_auc
+```
+
+```{r}
+#lasso and ridge for logistic
+library(glmnet)
+total = rbind(train, validate)
+total = stdize(total)
+
+cols <- sapply(total, is.logical)
+total[,cols] <- lapply(total[,cols], as.numeric)
+total
+
+X = model.matrix(has_warranty ~ 0 + ., total)
+Y = total$has_warranty
+X.train = X[1:nrow(train),]
+X.test = X[(nrow(train)+1):nrow(total),]
+Y.train = Y[1:nrow(train)]
+Y.test = Y[(nrow(train)+1):nrow(total)]
+
+# set lambda sequence to use for lasso and ridge
+lambdas = 10^seq(-2,5,0.1)
+
+# ridge regression
+fm.ridge = glmnet(X.train, Y.train, alpha = 0, family = "binomial", lambda = lambdas, thresh = 1e-12)
+
+# test error of ridge regression at each lambda
+ridge.test = adply(lambdas, 1, function(l) {
+  prediction = predict(fm.ridge, newx = X.test, type="class", s = l)
+  print(as.numeric(prediction))
+  return( data.frame(l, mean( abs(Y.test - as.numeric(predict(fm.ridge, newx = X.test, type="class", s = l))) ), "Ridge" ))
+}, .id = NULL)
+colnames(ridge.test) = c("lambda", "TestErr", "Model")
+
+#lasso
+fm.lasso = glmnet(X.train, Y.train, alpha = 1, family = "binomial", lambda = lambdas, thresh = 1e-12)
+
+# test error of lasso at each lambda
+lasso.test = adply(lambdas, 1, function(l) {
+  return( data.frame(l, mean( abs(Y.test - as.numeric(predict(fm.lasso, s = l, newx = X.test, type='class'))) ), "Lasso" ))
+}, .id = NULL)
+colnames(lasso.test) = c("lambda", "TestErr", "Model")
+
+# combine test error of each model into one data frame
+test.df = rbind(ridge.test, lasso.test)
+test.df$Model = factor(test.df$Model)
+
+# plot test error
+ggplot(data = test.df, aes(x = lambda, y = TestErr, color = Model)) + 
+  geom_line()  + scale_x_log10() + ylab("Test set error")
+
+# What is the minimum test error for ridge and lasso?
+ridge.min.err = min(ridge.test$TestErr)
+lasso.min.err = min(lasso.test$TestErr)
+print("ridge min error:")
+sqrt(ridge.min.err)
+print("lasso min error:")
+sqrt(lasso.min.err)
+
+# Which lambda achieves the minimum test error for ridge and lasso?
+ridge.min.l = lambdas[which.min(ridge.test$TestErr)]
+lasso.min.l = lambdas[which.min(lasso.test$TestErr)]
+print("ridge min lambda")
+ridge.min.l
+print("lasso min lambda")
+lasso.min.l
+
+# What are the coefficients at the test error minimizing models?
+#cbind(predict(fm.lasso, s = lasso.min.l, type = "coefficients"), 
+#predict(fm.ridge, s = ridge.min.l, type = "coefficients"))
+```
+
+
+
