@@ -1,0 +1,84 @@
+---
+title: "Random Forest"
+author: "Philip Clark + Wyatt Pontius"
+---
+
+```{r}
+library(randomForest)
+library(ggplot2)
+```
+
+```{r}
+setwd("C:/Users/Wyatt/Documents/Year 3 - Autumn/MS&E 226/Project/Data/")
+train_data <- read.csv(file = "final_train_data.csv")
+validation_data <- read.csv(file = "final_validation_data.csv")
+train_data[1] <- NULL
+validation_data[1] <- NULL
+dependent_variable_train <- train_data[,1]
+dependent_variable_validate <- validation_data[,1]
+independent_variable_train <- train_data[,-1]
+independent_variable_validate <- validation_data[,-1]
+```
+
+```{r}
+tuneRF(independent_variable_train, dependent_variable_train)
+```
+
+Best mtry fluctuates around the default, so we'll run the model using the default mtry value (which is the number of covariates divided by 3).
+
+```{r}
+price.rf <- randomForest(Price ~ ., data = train_data, ntree= 1000, importance = TRUE)
+```
+
+```{r}
+print(price.rf)
+varUsed(price.rf, by.tree = FALSE, count = TRUE)
+```
+
+```{r}
+importance(price.rf)
+```
+
+Variables with higher values of %IncMSE are more important in the model. The most important covariates according to thise model are Make, Model_Year, Auction, and Type.
+
+```{r}
+plot(price.rf)
+```
+
+```{r}
+price.predicted.train <- predict(price.rf, independent_variable_train, type="response")
+```
+
+```{r}
+price_error.train <- (dependent_variable_train - price.predicted.train)
+price_error_df.train <- data.frame(price_error.train)
+```
+
+```{r}
+rmse <- function(error) {
+  sqrt(mean(error^2))
+}
+RMSE.train <- rmse(price_error.train)
+print(RMSE.train)
+```
+
+```{r}
+price.predicted <- predict(price.rf, independent_variable_validate, type="response")
+```
+
+```{r}
+price_error <- (dependent_variable_validate - price.predicted)
+price_error_df <- data.frame(price_error)
+```
+
+```{r}
+rmse <- function(error) {
+  sqrt(mean(error^2))
+}
+RMSE <- rmse(price_error)
+print(RMSE)
+```
+
+```{r}
+ggplot(price_error_df, aes(x = price_error)) + geom_histogram() + geom_vline(aes(xintercept = mean(price_error)), color = "red", linetype = "dashed", size = 1)
+```

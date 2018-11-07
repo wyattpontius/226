@@ -1,0 +1,114 @@
+---
+title: "Random Forest"
+author: "Philip Clark + Wyatt Pontius"
+---
+
+```{r}
+library(randomForest)
+library(ggplot2)
+library(ROCR)
+```
+
+```{r}
+setwd("C:/Users/Wyatt/Documents/Year 3 - Autumn/MS&E 226/Project/Data/")
+train_data <- read.csv(file = "final_train_data.csv")
+validation_data <- read.csv(file = "final_validation_data.csv")
+train_data[1] <- NULL
+validation_data[1] <- NULL
+dependent_variable_train <- as.factor(train_data[,15])
+dependent_variable_validate <- as.factor(validation_data[,15])
+independent_variable_train <- train_data[,-15]
+independent_variable_validate <- validation_data[,-15]
+```
+
+```{r}
+tuneRF(independent_variable_train, dependent_variable_train)
+```
+
+Best mtry fluctuates around the default, so we'll run the model using the default mtry value (which is the square root of the number of covariates).
+
+```{r}
+warranty.rf <- randomForest(x = independent_variable_train, y = dependent_variable_train, ntree= 1000)
+```
+
+```{r}
+print(warranty.rf)
+varUsed(warranty.rf, by.tree = FALSE, count = TRUE)
+```
+
+```{r}
+importance(warranty.rf)
+```
+
+```{r}
+plot(warranty.rf)
+```
+
+```{r}
+warranty.pred.train <- predict(warranty.rf, newdata = independent_variable_train)
+ROCR.pred.train <- as.numeric(warranty.pred.train)
+ROCR.actual.train <- as.numeric(dependent_variable_train)
+pred.train = prediction(ROCR.pred.train, ROCR.actual.train)
+```
+
+```{r}
+CM.train <- table(warranty.pred.train, dependent_variable_train)
+print(CM.train)
+```
+
+```{r}
+accuracy.train <- sum(diag(CM.train))/sum(CM.train)
+print(accuracy.train)
+```
+
+```{r}
+precision.train <- CM.train[2,2]/(CM.train[2,2] + CM.train[2,1])
+print(precision.train)
+```
+
+```{r}
+recall.train <- CM.train[2,2]/(CM.train[2,2] + CM.train[1,2])
+print(recall.train)
+```
+
+```{r}
+perf_auc.train <- performance(pred.train, "auc")
+auc.train <- perf_auc.train@y.values[[1]]
+print(auc.train)
+```
+
+-------------------------------------------------------------------------------------------
+VALIDATION DATA
+
+```{r}
+warranty.pred <- predict(warranty.rf, newdata = independent_variable_validate)
+ROCR.pred <- as.numeric(warranty.pred)
+ROCR.actual <- as.numeric(dependent_variable_validate)
+pred = prediction(ROCR.pred, ROCR.actual)
+```
+
+```{r}
+CM <- table(warranty.pred, dependent_variable_validate)
+print(CM)
+```
+
+```{r}
+accuracy <- sum(diag(CM))/sum(CM)
+print(accuracy)
+```
+
+```{r}
+precision <- CM[2,2]/(CM[2,2] + CM[2,1])
+print(precision)
+```
+
+```{r}
+recall <- CM[2,2]/(CM[2,2] + CM[1,2])
+print(recall)
+```
+
+```{r}
+perf_auc <- performance(pred, "auc")
+auc <- perf_auc@y.values[[1]]
+print(auc)
+```
