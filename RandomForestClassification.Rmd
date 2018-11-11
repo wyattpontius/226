@@ -9,6 +9,7 @@ library(ggplot2)
 library(ROCR)
 ```
 
+Reading in the data and separating out the dependent variable from the covariates.
 ```{r}
 setwd("C:/Users/Wyatt/Documents/Year 3 - Autumn/MS&E 226/Project/Data/")
 train_data <- read.csv(file = "final_train_data.csv")
@@ -21,12 +22,12 @@ independent_variable_train <- train_data[,-15]
 independent_variable_validate <- validation_data[,-15]
 ```
 
+A function which optimizes the value of mtry, the number of variables selected from the set of covariates when forming each tree
 ```{r}
 tuneRF(independent_variable_train, dependent_variable_train)
 ```
 
 Best mtry fluctuates around the default, so we'll run the model using the default mtry value (which is the square root of the number of covariates).
-
 ```{r}
 warranty.rf <- randomForest(x = independent_variable_train, y = dependent_variable_train, ntree= 1000)
 ```
@@ -36,14 +37,17 @@ print(warranty.rf)
 varUsed(warranty.rf, by.tree = FALSE, count = TRUE)
 ```
 
+A measure of the "importance" of each covariate, indicated by the increased in error accompanied by the removal of each covariate from the model
 ```{r}
 importance(warranty.rf)
 ```
 
+A plot of the error as the number of trees increases
 ```{r}
 plot(warranty.rf)
 ```
 
+Creating the prediction vector of the trained model across the training set.
 ```{r}
 warranty.pred.train <- predict(warranty.rf, newdata = independent_variable_train)
 ROCR.pred.train <- as.numeric(warranty.pred.train)
@@ -51,11 +55,13 @@ ROCR.actual.train <- as.numeric(dependent_variable_train)
 pred.train = prediction(ROCR.pred.train, ROCR.actual.train)
 ```
 
+Outputting the confusion matrix
 ```{r}
 CM.train <- table(warranty.pred.train, dependent_variable_train)
 print(CM.train)
 ```
 
+Calculating values of the interest based on the confusion matrix
 ```{r}
 accuracy.train <- sum(diag(CM.train))/sum(CM.train)
 print(accuracy.train)
