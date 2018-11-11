@@ -7,6 +7,7 @@ author: "Philip Clark + Wyatt Pontius"
 library(earth)
 ```
 
+Reading in the data and separating the dependent variable from the covariates
 ```{r}
 setwd("C:/Users/Wyatt/Documents/Year 3 - Autumn/MS&E 226/Project/Data/")
 train_data <- read.csv(file = "final_train_data.csv")
@@ -19,6 +20,7 @@ independent_variable_train <- train_data[,-1]
 independent_variable_validate <- validation_data[,-1]
 ```
 
+Training the MARS model on the training set, with the degrees (number of hinge functions in any "interaction term") limited to 2.
 ```{r}
 earth.mod.vi <- earth(Price ~ ., data = train_data, degree = 2)
 vi <- evimp(earth.mod.vi, trim=FALSE)
@@ -26,13 +28,13 @@ print(vi)
 ```
 
 List of variable importances in the MARS model. nsubsets is the number of subsets that include the variable. gcv is the generalized cross validation criterion score. rss is the residual sum of squares criterion score.
-
 ```{r}
 earth.mod <- earth(Price ~ ., data = train_data)
 plotmo(earth.mod)
 summary(earth.mod, digits = 2, style = "pmax")
 ```
 
+Using the trained model to predict dependent variable values across the training set.
 ```{r}
 price.pred.train <- predict(earth.mod, newdata = independent_variable_train)
 price_error.train <- (dependent_variable_train - price.pred.train)
