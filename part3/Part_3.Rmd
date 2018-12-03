@@ -7,7 +7,7 @@ output: word_document
 #import train and test data and get ride of X1 column
 library(ggplot2)
 library(dplyr)
-setwd("~/Documents/226Project")
+setwd("~/Year 3 - Autumn/MS&E 226/Project/Data")
 train = read.csv(file = "final_train_data.csv")
 test = read.csv(file = "final_test_data.csv")
 train = train[,-1]
@@ -23,18 +23,27 @@ stepped = step(fm.lower,
      scope = list(lower = fm.lower,
                   upper = fm.upper),
      direction = "forward")
-
 stepwise_formula = formula(stepped)
 ```
 ```{r}
-stepwise_model = lm(stepwise_formula, train)
-summary(stepwise_model)
+stepwise_model_train = lm(stepwise_formula, train)
+#summary(stepwise_model_train)
+X_train <- as.data.frame(summary(stepwise_model_train)$coefficients)
+Y_train <- cbind(X_train[,c("Estimate", "Pr(>|t|)")])
+sorted_coefficients_train <- Y_train[order(Y_train$`Pr(>|t|)`),]
+sorted_coefficients_train_filtered <- subset(sorted_coefficients_train, `Pr(>|t|)` <= 0.05)
+sorted_coefficients_train_filtered
 ```
 #fit on test data
 
 ```{r}
 stepwise_model = lm(stepwise_formula, test)
-summary(stepwise_model)
+#summary(stepwise_model)
+X <- as.data.frame(summary(stepwise_model)$coefficients)
+Y <- cbind(X[,c("Estimate", "Pr(>|t|)")])
+sorted_coefficients_test <- Y[order(Y$`Pr(>|t|)`),]
+sorted_coefficients_test_filtered <- subset(sorted_coefficients_test, `Pr(>|t|)` <= 0.05)
+sorted_coefficients_test_filtered
 ```
 #model with all of the covariates
 ```{r}
@@ -47,24 +56,18 @@ summary(complete_model)
 ```{r}
 library(matrixStats)
 set.seed(2)
-
 bstar = NULL
 n = nrow(train)
 B = 1000
-
 for(i in 1:B) {
   Dstar = train[sample(1:nrow(train),size=nrow(train),replace=TRUE),]
   model = lm(stepwise_formula, Dstar)
   bstar = rbind(bstar, coef(model))
 }
-
 SEs = colSds(bstar)
 bstar = data.frame(bstar)
-
 lower_bound = colMeans(bstar) - 1.96*SEs 
 upper_bound = colMeans(bstar) + 1.96*SEs 
-
 intervals = data.frame(cbind(SEs, colMeans(bstar), lower_bound, upper_bound))
 intervals
 ```
-
